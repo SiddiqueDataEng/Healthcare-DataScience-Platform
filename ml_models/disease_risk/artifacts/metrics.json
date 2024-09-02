@@ -1,0 +1,30 @@
+[
+  {
+    "disease": "diabetes",
+    "run_id": "20260610_162438",
+    "auc_roc": 0.5552,
+    "auc_pr": 0.9141,
+    "prevalence": 0.896
+  },
+  {
+    "disease": "hypertension",
+    "run_id": "20260610_162440",
+    "auc_roc": 0.492,
+    "auc_pr": 0.861,
+    "prevalence": 0.852
+  },
+  {
+    "disease": "heart_failure",
+    "run_id": "20260610_162442",
+    "auc_roc": 0.4865,
+    "auc_pr": 0.5714,
+    "prevalence": 0.567
+  },
+  {
+    "disease": "ckd",
+    "run_id": "20260610_162444",
+    "auc_roc": 0.5346,
+    "auc_pr": 0.5763,
+    "prevalence": 0.562
+  }
+]

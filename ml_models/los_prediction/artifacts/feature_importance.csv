@@ -1,0 +1,7 @@
+feature,shap_importance
+actual_cost,0.11151897
+drg_code,0.04506194
+icu_hours,0.043410745
+ward,0.035029206
+admission_type,0.02237554
+surgery_performed,0.009709907

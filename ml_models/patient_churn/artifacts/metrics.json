@@ -1,0 +1,7 @@
+{
+  "run_id": "20260610_162452",
+  "auc_roc": 0.5743,
+  "auc_pr": 0.2384,
+  "churn_rate": 0.1648,
+  "churn_threshold_days": 365
+}

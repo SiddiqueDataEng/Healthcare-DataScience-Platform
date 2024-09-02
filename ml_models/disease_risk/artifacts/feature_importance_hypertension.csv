@@ -1,0 +1,16 @@
+feature,shap_importance
+age,0.025947483
+lab_creatinine,0.016323442
+lab_hdl_cholesterol,0.009165821
+lab_troponin_i,0.008049285
+lab_glucose,0.0057654195
+abnormal_lab_count,0.004215047
+lab_hba1c,0.0033157035
+lab_total_cholesterol,0.002711019
+lab_sodium,0.002358919
+lab_hemoglobin,0.002151396
+lab_tsh,0.0019034535
+avg_los,0.00077220856
+gender,0.0007631872
+lab_bun,0.0
+ethnicity,0.0

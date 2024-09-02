@@ -1,0 +1,16 @@
+feature,shap_importance
+age,0.22667989
+lab_hba1c,0.11389226
+annual_income_band,0.09610547
+avg_los,0.09037025
+marital_status,0.08022319
+lab_troponin_i,0.07496541
+insurance_plan_type,0.06682405
+lab_ldl_cholesterol,0.06444693
+lab_hdl_cholesterol,0.0638642
+lab_wbc,0.0616905
+lab_total_cholesterol,0.06018943
+lab_bun,0.053909194
+lab_glucose,0.05117422
+lab_tsh,0.04991024
+total_icu_hours,0.04660473

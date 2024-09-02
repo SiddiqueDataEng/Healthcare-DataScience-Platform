@@ -1,0 +1,1001 @@
+patient_id,risk_diabetes,risk_diabetes_category,risk_hypertension,risk_hypertension_category,risk_heart_failure,risk_heart_failure_category,risk_ckd,risk_ckd_category
+P0000001,84.9,Very High,60.9,Very High,45.1,High,54.2,Very High
+P0000002,87.7,Very High,75.9,Very High,61.2,Very High,55.1,Very High
+P0000003,81.4,Very High,64.0,Very High,58.0,Very High,53.5,Very High
+P0000004,86.2,Very High,74.8,Very High,58.2,Very High,57.6,Very High
+P0000005,82.6,Very High,76.4,Very High,57.5,Very High,58.9,Very High
+P0000006,80.7,Very High,80.0,Very High,47.9,High,61.0,Very High
+P0000007,85.5,Very High,76.4,Very High,61.1,Very High,58.2,Very High
+P0000008,81.5,Very High,77.8,Very High,45.9,High,53.4,Very High
+P0000009,84.8,Very High,78.0,Very High,44.4,High,62.7,Very High
+P0000010,81.3,Very High,80.5,Very High,58.4,Very High,57.4,Very High
+P0000011,78.8,Very High,62.0,Very High,57.0,Very High,46.1,High
+P0000012,72.2,Very High,63.0,Very High,56.8,Very High,56.0,Very High
+P0000013,82.2,Very High,77.0,Very High,62.9,Very High,57.7,Very High
+P0000014,85.9,Very High,61.4,Very High,46.5,High,54.0,Very High
+P0000015,82.4,Very High,75.1,Very High,52.9,Very High,47.0,High
+P0000016,72.6,Very High,75.6,Very High,51.8,Very High,47.6,High
+P0000017,79.3,Very High,78.8,Very High,54.0,Very High,46.8,High
+P0000018,86.8,Very High,79.7,Very High,57.8,Very High,53.9,Very High
+P0000019,84.8,Very High,74.6,Very High,51.3,Very High,55.6,Very High
+P0000020,83.1,Very High,79.7,Very High,47.5,High,51.2,Very High
+P0000021,76.6,Very High,78.6,Very High,58.8,Very High,44.2,High
+P0000022,85.4,Very High,63.4,Very High,48.8,High,53.7,Very High
+P0000023,85.9,Very High,79.9,Very High,51.9,Very High,47.2,High
+P0000024,81.4,Very High,76.9,Very High,58.4,Very High,45.7,High
+P0000025,86.0,Very High,83.4,Very High,54.8,Very High,55.8,Very High
+P0000026,79.7,Very High,70.6,Very High,51.1,Very High,50.4,Very High
+P0000027,88.8,Very High,75.9,Very High,54.1,Very High,48.4,High
+P0000028,86.9,Very High,71.6,Very High,50.7,Very High,46.3,High
+P0000029,86.8,Very High,71.8,Very High,59.2,Very High,55.8,Very High
+P0000030,86.0,Very High,69.9,Very High,59.6,Very High,49.0,High
+P0000031,84.7,Very High,77.4,Very High,51.4,Very High,55.9,Very High
+P0000032,88.2,Very High,80.9,Very High,61.0,Very High,52.0,Very High
+P0000033,80.0,Very High,62.6,Very High,57.3,Very High,46.6,High
+P0000034,85.4,Very High,85.9,Very High,49.9,High,56.9,Very High
+P0000035,78.6,Very High,66.1,Very High,55.4,Very High,55.9,Very High
+P0000036,88.2,Very High,77.3,Very High,55.7,Very High,54.6,Very High
+P0000037,75.3,Very High,79.3,Very High,57.1,Very High,51.4,Very High
+P0000038,83.2,Very High,76.4,Very High,51.0,Very High,55.3,Very High
+P0000039,84.6,Very High,77.2,Very High,60.3,Very High,60.2,Very High
+P0000040,78.9,Very High,79.6,Very High,57.4,Very High,54.3,Very High
+P0000041,82.7,Very High,73.9,Very High,45.8,High,49.5,High
+P0000042,85.1,Very High,70.9,Very High,56.6,Very High,52.8,Very High
+P0000043,81.3,Very High,77.6,Very High,62.5,Very High,57.2,Very High
+P0000044,80.2,Very High,60.8,Very High,57.7,Very High,53.9,Very High
+P0000045,73.5,Very High,61.9,Very High,58.9,Very High,54.8,Very High
+P0000046,73.2,Very High,62.1,Very High,61.5,Very High,62.7,Very High
+P0000047,83.2,Very High,75.4,Very High,48.5,High,55.8,Very High
+P0000048,70.3,Very High,76.9,Very High,48.3,High,54.2,Very High
+P0000049,89.5,Very High,67.3,Very High,55.2,Very High,50.2,Very High
+P0000050,84.6,Very High,78.5,Very High,49.0,High,57.6,Very High
+P0000051,86.2,Very High,75.6,Very High,47.1,High,56.4,Very High
+P0000052,82.1,Very High,74.1,Very High,51.3,Very High,55.2,Very High
+P0000053,71.5,Very High,81.1,Very High,60.2,Very High,56.0,Very High
+P0000054,83.0,Very High,63.6,Very High,56.2,Very High,59.0,Very High
+P0000055,86.8,Very High,77.5,Very High,60.5,Very High,58.5,Very High
+P0000056,74.6,Very High,83.4,Very High,56.8,Very High,49.0,High
+P0000057,89.7,Very High,62.9,Very High,47.6,High,50.8,Very High
+P0000058,84.8,Very High,74.6,Very High,56.7,Very High,47.0,High
+P0000059,87.1,Very High,79.3,Very High,45.1,High,48.3,High
+P0000060,84.7,Very High,73.8,Very High,44.9,High,47.3,High
+P0000061,75.0,Very High,80.7,Very High,53.8,Very High,61.4,Very High
+P0000062,83.2,Very High,78.0,Very High,48.4,High,57.5,Very High
+P0000063,88.0,Very High,64.1,Very High,61.4,Very High,57.7,Very High
+P0000064,79.3,Very High,72.1,Very High,63.0,Very High,49.2,High
+P0000065,89.0,Very High,60.0,Very High,55.5,Very High,48.6,High
+P0000066,86.9,Very High,74.2,Very High,61.5,Very High,60.0,Very High
+P0000067,76.6,Very High,65.7,Very High,59.4,Very High,44.3,High
+P0000068,83.5,Very High,79.6,Very High,53.6,Very High,50.4,Very High
+P0000069,86.9,Very High,75.9,Very High,49.9,High,49.5,High
+P0000070,79.5,Very High,78.7,Very High,61.0,Very High,61.8,Very High
+P0000071,83.6,Very High,75.3,Very High,50.1,Very High,46.4,High
+P0000072,49.6,High,80.7,Very High,52.4,Very High,58.6,Very High
+P0000073,88.7,Very High,79.1,Very High,65.1,Very High,54.6,Very High
+P0000074,86.6,Very High,81.2,Very High,55.4,Very High,55.4,Very High
+P0000075,78.0,Very High,76.2,Very High,52.3,Very High,49.3,High
+P0000076,84.2,Very High,78.3,Very High,60.9,Very High,60.2,Very High
+P0000077,80.2,Very High,80.2,Very High,56.8,Very High,59.1,Very High
+P0000078,90.6,Very High,79.8,Very High,61.7,Very High,54.6,Very High
+P0000079,85.0,Very High,71.9,Very High,49.6,High,54.4,Very High
+P0000080,83.6,Very High,79.7,Very High,44.0,High,59.7,Very High
+P0000081,57.2,Very High,78.1,Very High,61.7,Very High,51.8,Very High
+P0000082,86.5,Very High,83.6,Very High,53.8,Very High,62.5,Very High
+P0000083,81.6,Very High,82.2,Very High,52.6,Very High,50.4,Very High
+P0000084,86.1,Very High,76.6,Very High,59.5,Very High,53.4,Very High
+P0000085,56.8,Very High,79.9,Very High,45.1,High,61.0,Very High
+P0000086,82.0,Very High,76.5,Very High,60.6,Very High,60.0,Very High
+P0000087,77.2,Very High,81.2,Very High,44.6,High,60.1,Very High
+P0000088,44.8,High,77.6,Very High,58.1,Very High,48.9,High
+P0000089,76.5,Very High,73.0,Very High,54.6,Very High,46.7,High
+P0000090,80.1,Very High,75.9,Very High,49.4,High,63.5,Very High
+P0000091,61.1,Very High,78.0,Very High,56.2,Very High,58.5,Very High
+P0000092,50.7,Very High,66.8,Very High,58.2,Very High,53.5,Very High
+P0000093,63.5,Very High,78.8,Very High,57.9,Very High,54.7,Very High
+P0000094,48.3,High,79.6,Very High,49.0,High,47.4,High
+P0000095,89.0,Very High,76.4,Very High,62.2,Very High,51.9,Very High
+P0000096,75.0,Very High,78.8,Very High,60.0,Very High,54.0,Very High
+P0000097,80.5,Very High,64.4,Very High,49.4,High,59.0,Very High
+P0000098,88.3,Very High,80.8,Very High,58.4,Very High,57.5,Very High
+P0000099,90.8,Very High,75.4,Very High,46.1,High,54.0,Very High
+P0000100,90.1,Very High,75.7,Very High,51.1,Very High,58.8,Very High
+P0000101,75.1,Very High,80.1,Very High,59.6,Very High,50.9,Very High
+P0000102,83.6,Very High,74.7,Very High,42.6,High,59.8,Very High
+P0000103,81.1,Very High,81.1,Very High,51.3,Very High,52.3,Very High
+P0000104,83.9,Very High,79.5,Very High,55.8,Very High,54.7,Very High
+P0000105,86.7,Very High,83.6,Very High,58.4,Very High,51.3,Very High
+P0000106,84.5,Very High,82.5,Very High,53.5,Very High,53.6,Very High
+P0000107,82.8,Very High,80.7,Very High,49.2,High,59.9,Very High
+P0000108,82.5,Very High,83.2,Very High,57.1,Very High,54.6,Very High
+P0000109,80.4,Very High,75.3,Very High,56.9,Very High,48.1,High
+P0000110,79.3,Very High,80.5,Very High,61.2,Very High,49.3,High
+P0000111,87.7,Very High,70.7,Very High,54.7,Very High,52.0,Very High
+P0000112,75.4,Very High,62.5,Very High,53.3,Very High,55.9,Very High
+P0000113,78.2,Very High,79.5,Very High,49.7,High,57.4,Very High
+P0000114,79.5,Very High,83.1,Very High,49.7,High,49.4,High
+P0000115,82.4,Very High,78.9,Very High,62.4,Very High,53.3,Very High
+P0000116,76.7,Very High,79.7,Very High,55.1,Very High,49.3,High
+P0000117,86.0,Very High,63.4,Very High,61.1,Very High,51.5,Very High
+P0000118,85.2,Very High,76.6,Very High,54.0,Very High,51.3,Very High
+P0000119,87.7,Very High,74.9,Very High,47.5,High,50.9,Very High
+P0000120,82.0,Very High,76.3,Very High,47.2,High,60.9,Very High
+P0000121,81.3,Very High,84.1,Very High,55.8,Very High,62.8,Very High
+P0000122,82.9,Very High,74.0,Very High,48.1,High,55.5,Very High
+P0000123,84.7,Very High,56.2,Very High,59.1,Very High,59.3,Very High
+P0000124,54.9,Very High,76.1,Very High,48.4,High,60.6,Very High
+P0000125,86.3,Very High,72.8,Very High,57.1,Very High,57.0,Very High
+P0000126,77.2,Very High,76.5,Very High,54.4,Very High,45.0,High
+P0000127,88.0,Very High,70.5,Very High,52.4,Very High,57.2,Very High
+P0000128,76.3,Very High,75.0,Very High,48.0,High,56.1,Very High
+P0000129,78.5,Very High,77.4,Very High,58.8,Very High,56.1,Very High
+P0000130,83.5,Very High,81.7,Very High,56.5,Very High,57.3,Very High
+P0000131,88.3,Very High,81.8,Very High,55.4,Very High,54.5,Very High
+P0000132,80.4,Very High,79.2,Very High,57.6,Very High,60.6,Very High
+P0000133,86.5,Very High,72.9,Very High,48.4,High,47.0,High
+P0000134,77.6,Very High,83.8,Very High,61.6,Very High,51.6,Very High
+P0000135,79.3,Very High,82.4,Very High,62.5,Very High,64.4,Very High
+P0000136,78.6,Very High,78.3,Very High,58.1,Very High,49.4,High
+P0000137,85.5,Very High,68.5,Very High,55.3,Very High,49.7,High
+P0000138,89.7,Very High,72.4,Very High,52.4,Very High,50.8,Very High
+P0000139,81.6,Very High,62.7,Very High,49.5,High,52.3,Very High
+P0000140,85.8,Very High,68.9,Very High,53.5,Very High,48.9,High
+P0000141,87.2,Very High,64.2,Very High,46.1,High,61.4,Very High
+P0000142,89.5,Very High,81.8,Very High,50.1,Very High,50.5,Very High
+P0000143,77.4,Very High,62.2,Very High,49.8,High,59.4,Very High
+P0000144,88.4,Very High,78.0,Very High,54.5,Very High,49.3,High
+P0000145,78.9,Very High,79.1,Very High,60.9,Very High,54.6,Very High
+P0000146,87.9,Very High,73.8,Very High,59.6,Very High,64.5,Very High
+P0000147,82.9,Very High,77.2,Very High,54.3,Very High,47.5,High
+P0000148,73.3,Very High,81.7,Very High,57.2,Very High,60.3,Very High
+P0000149,86.2,Very High,71.0,Very High,46.2,High,48.9,High
+P0000150,84.8,Very High,65.4,Very High,54.7,Very High,52.4,Very High
+P0000151,44.6,High,83.3,Very High,47.6,High,46.7,High
+P0000152,86.9,Very High,82.1,Very High,50.8,Very High,57.1,Very High
+P0000153,83.5,Very High,80.9,Very High,48.2,High,60.1,Very High
+P0000154,76.4,Very High,76.9,Very High,51.5,Very High,61.0,Very High
+P0000155,89.2,Very High,78.6,Very High,56.1,Very High,60.1,Very High
+P0000156,84.8,Very High,74.0,Very High,51.4,Very High,54.9,Very High
+P0000157,54.1,Very High,76.3,Very High,43.0,High,46.7,High
+P0000158,80.4,Very High,61.2,Very High,46.4,High,51.1,Very High
+P0000159,82.4,Very High,65.3,Very High,65.5,Very High,56.5,Very High
+P0000160,68.7,Very High,76.9,Very High,53.6,Very High,47.9,High
+P0000161,81.0,Very High,82.7,Very High,59.5,Very High,50.8,Very High
+P0000162,81.7,Very High,75.4,Very High,51.8,Very High,48.9,High
+P0000163,80.5,Very High,70.8,Very High,50.6,Very High,51.0,Very High
+P0000164,86.2,Very High,79.4,Very High,56.4,Very High,56.1,Very High
+P0000165,80.9,Very High,75.7,Very High,59.7,Very High,56.6,Very High
+P0000166,81.7,Very High,77.5,Very High,49.7,High,54.6,Very High
+P0000167,83.0,Very High,66.7,Very High,46.5,High,48.0,High
+P0000168,59.7,Very High,68.3,Very High,50.2,Very High,50.3,Very High
+P0000169,86.7,Very High,79.9,Very High,54.6,Very High,49.2,High
+P0000170,85.1,Very High,84.5,Very High,55.4,Very High,53.2,Very High
+P0000171,83.5,Very High,76.2,Very High,60.6,Very High,49.6,High
+P0000172,81.3,Very High,80.6,Very High,54.7,Very High,50.2,Very High
+P0000173,88.9,Very High,80.4,Very High,48.9,High,50.5,Very High
+P0000174,77.7,Very High,76.0,Very High,60.1,Very High,60.2,Very High
+P0000175,77.4,Very High,79.3,Very High,55.6,Very High,49.1,High
+P0000176,86.1,Very High,61.2,Very High,50.4,Very High,63.4,Very High
+P0000177,84.4,Very High,80.5,Very High,59.9,Very High,53.6,Very High
+P0000178,84.0,Very High,71.0,Very High,59.8,Very High,48.4,High
+P0000179,85.3,Very High,76.1,Very High,61.8,Very High,51.0,Very High
+P0000180,80.5,Very High,73.1,Very High,50.0,Very High,56.7,Very High
+P0000181,88.0,Very High,78.3,Very High,54.9,Very High,51.0,Very High
+P0000182,86.5,Very High,76.4,Very High,56.4,Very High,56.7,Very High
+P0000183,86.7,Very High,77.5,Very High,52.1,Very High,56.5,Very High
+P0000184,87.2,Very High,72.0,Very High,59.8,Very High,49.7,High
+P0000185,84.8,Very High,77.9,Very High,53.7,Very High,51.1,Very High
+P0000186,83.7,Very High,72.9,Very High,54.4,Very High,57.4,Very High
+P0000187,81.9,Very High,70.5,Very High,52.0,Very High,58.7,Very High
+P0000188,44.7,High,87.5,Very High,55.4,Very High,54.6,Very High
+P0000189,82.9,Very High,81.6,Very High,55.1,Very High,61.5,Very High
+P0000190,85.2,Very High,72.1,Very High,44.2,High,48.1,High
+P0000191,85.6,Very High,61.2,Very High,42.9,High,56.8,Very High
+P0000192,85.4,Very High,79.8,Very High,57.8,Very High,47.4,High
+P0000193,82.6,Very High,81.4,Very High,44.4,High,56.2,Very High
+P0000194,82.7,Very High,80.2,Very High,50.2,Very High,49.3,High
+P0000195,84.1,Very High,65.6,Very High,52.5,Very High,50.9,Very High
+P0000196,84.8,Very High,84.6,Very High,46.5,High,51.2,Very High
+P0000197,82.2,Very High,76.8,Very High,49.3,High,55.6,Very High
+P0000198,79.7,Very High,80.3,Very High,42.6,High,61.6,Very High
+P0000199,83.0,Very High,78.8,Very High,64.1,Very High,52.9,Very High
+P0000200,47.4,High,80.3,Very High,55.4,Very High,53.7,Very High
+P0000201,80.0,Very High,60.2,Very High,53.7,Very High,50.9,Very High
+P0000202,82.3,Very High,75.0,Very High,54.9,Very High,48.8,High
+P0000203,88.1,Very High,77.9,Very High,53.7,Very High,58.1,Very High
+P0000204,86.8,Very High,78.1,Very High,49.8,High,49.0,High
+P0000205,81.6,Very High,74.9,Very High,52.6,Very High,61.3,Very High
+P0000206,43.7,High,81.0,Very High,59.4,Very High,57.4,Very High
+P0000207,59.2,Very High,76.7,Very High,56.5,Very High,48.2,High
+P0000208,73.6,Very High,69.4,Very High,58.9,Very High,44.0,High
+P0000209,85.0,Very High,62.3,Very High,59.4,Very High,55.4,Very High
+P0000210,88.3,Very High,78.8,Very High,63.1,Very High,45.0,High
+P0000211,82.6,Very High,75.6,Very High,57.7,Very High,54.1,Very High
+P0000212,67.7,Very High,81.6,Very High,57.7,Very High,57.9,Very High
+P0000213,84.2,Very High,67.4,Very High,48.5,High,51.6,Very High
+P0000214,77.6,Very High,77.6,Very High,55.8,Very High,55.8,Very High
+P0000215,86.0,Very High,78.5,Very High,60.7,Very High,55.8,Very High
+P0000216,84.7,Very High,78.2,Very High,56.5,Very High,51.2,Very High
+P0000217,82.9,Very High,76.1,Very High,42.6,High,53.1,Very High
+P0000218,82.8,Very High,76.2,Very High,54.5,Very High,47.6,High
+P0000219,80.4,Very High,76.7,Very High,60.2,Very High,55.2,Very High
+P0000220,84.0,Very High,79.9,Very High,59.5,Very High,47.5,High
+P0000221,87.4,Very High,82.7,Very High,55.8,Very High,54.8,Very High
+P0000222,88.5,Very High,67.9,Very High,61.5,Very High,52.8,Very High
+P0000223,77.3,Very High,74.4,Very High,57.5,Very High,55.9,Very High
+P0000224,88.5,Very High,80.9,Very High,56.8,Very High,55.2,Very High
+P0000225,82.8,Very High,77.9,Very High,59.5,Very High,59.8,Very High
+P0000226,83.0,Very High,67.1,Very High,58.2,Very High,59.5,Very High
+P0000227,82.5,Very High,73.2,Very High,57.8,Very High,62.4,Very High
+P0000228,80.3,Very High,76.4,Very High,55.9,Very High,51.2,Very High
+P0000229,85.3,Very High,78.6,Very High,56.3,Very High,53.3,Very High
+P0000230,85.4,Very High,79.1,Very High,48.7,High,59.5,Very High
+P0000231,80.5,Very High,66.8,Very High,47.8,High,55.5,Very High
+P0000232,84.6,Very High,65.0,Very High,55.4,Very High,56.5,Very High
+P0000233,85.2,Very High,75.9,Very High,44.4,High,53.8,Very High
+P0000234,81.7,Very High,75.9,Very High,58.7,Very High,46.9,High
+P0000235,83.9,Very High,82.0,Very High,49.5,High,53.8,Very High
+P0000236,77.1,Very High,78.7,Very High,49.5,High,60.0,Very High
+P0000237,81.4,Very High,83.6,Very High,59.5,Very High,60.3,Very High
+P0000238,81.0,Very High,84.6,Very High,54.6,Very High,54.0,Very High
+P0000239,82.6,Very High,76.4,Very High,55.2,Very High,62.5,Very High
+P0000240,76.3,Very High,80.4,Very High,62.6,Very High,50.6,Very High
+P0000241,82.9,Very High,84.9,Very High,50.5,Very High,50.2,Very High
+P0000242,77.9,Very High,73.8,Very High,58.5,Very High,60.9,Very High
+P0000243,80.7,Very High,77.8,Very High,58.3,Very High,57.5,Very High
+P0000244,48.5,High,80.8,Very High,60.4,Very High,49.1,High
+P0000245,82.8,Very High,70.2,Very High,43.5,High,49.8,High
+P0000246,79.2,Very High,75.8,Very High,48.7,High,58.9,Very High
+P0000247,52.0,Very High,77.6,Very High,55.6,Very High,55.1,Very High
+P0000248,82.5,Very High,77.0,Very High,46.5,High,49.9,High
+P0000249,62.8,Very High,67.2,Very High,54.8,Very High,50.1,Very High
+P0000250,74.3,Very High,64.3,Very High,56.2,Very High,58.3,Very High
+P0000251,71.0,Very High,77.6,Very High,59.0,Very High,44.4,High
+P0000252,82.1,Very High,68.7,Very High,49.3,High,61.0,Very High
+P0000253,87.6,Very High,73.3,Very High,49.2,High,57.4,Very High
+P0000254,83.1,Very High,67.8,Very High,54.7,Very High,46.7,High
+P0000255,89.0,Very High,73.2,Very High,59.2,Very High,47.5,High
+P0000256,86.9,Very High,78.1,Very High,48.4,High,49.7,High
+P0000257,60.7,Very High,78.0,Very High,54.7,Very High,59.8,Very High
+P0000258,80.3,Very High,78.5,Very High,58.1,Very High,43.4,High
+P0000259,84.0,Very High,79.4,Very High,56.3,Very High,48.0,High
+P0000260,48.7,High,80.6,Very High,54.2,Very High,57.7,Very High
+P0000261,45.2,High,80.7,Very High,57.5,Very High,56.2,Very High
+P0000262,82.0,Very High,79.9,Very High,52.9,Very High,54.2,Very High
+P0000263,88.4,Very High,74.5,Very High,54.4,Very High,55.7,Very High
+P0000264,82.0,Very High,75.1,Very High,61.0,Very High,46.7,High
+P0000265,80.1,Very High,63.6,Very High,57.5,Very High,58.2,Very High
+P0000266,84.2,Very High,72.9,Very High,55.1,Very High,54.7,Very High
+P0000267,87.1,Very High,77.5,Very High,61.7,Very High,49.9,High
+P0000268,81.0,Very High,66.2,Very High,59.9,Very High,58.6,Very High
+P0000269,81.1,Very High,82.6,Very High,58.9,Very High,53.3,Very High
+P0000270,78.5,Very High,80.5,Very High,59.3,Very High,53.1,Very High
+P0000271,82.2,Very High,79.2,Very High,59.8,Very High,63.1,Very High
+P0000272,80.3,Very High,70.4,Very High,60.9,Very High,55.8,Very High
+P0000273,82.6,Very High,77.3,Very High,51.3,Very High,47.6,High
+P0000274,81.9,Very High,72.2,Very High,46.4,High,50.4,Very High
+P0000275,79.5,Very High,73.2,Very High,57.8,Very High,53.3,Very High
+P0000276,78.9,Very High,76.5,Very High,51.2,Very High,53.5,Very High
+P0000277,86.6,Very High,79.5,Very High,62.9,Very High,55.6,Very High
+P0000278,79.7,Very High,80.6,Very High,56.7,Very High,55.8,Very High
+P0000279,88.5,Very High,67.7,Very High,55.4,Very High,55.7,Very High
+P0000280,84.5,Very High,72.4,Very High,50.9,Very High,50.3,Very High
+P0000281,87.2,Very High,65.9,Very High,54.3,Very High,63.7,Very High
+P0000282,78.9,Very High,71.0,Very High,62.2,Very High,66.3,Very High
+P0000283,87.4,Very High,73.6,Very High,51.3,Very High,49.7,High
+P0000284,87.1,Very High,79.5,Very High,52.8,Very High,59.9,Very High
+P0000285,84.1,Very High,75.9,Very High,53.8,Very High,58.1,Very High
+P0000286,85.4,Very High,77.4,Very High,50.8,Very High,57.5,Very High
+P0000287,86.9,Very High,73.5,Very High,59.2,Very High,45.1,High
+P0000288,47.4,High,77.4,Very High,61.9,Very High,52.5,Very High
+P0000289,85.1,Very High,78.0,Very High,51.6,Very High,55.5,Very High
+P0000290,83.4,Very High,80.2,Very High,60.1,Very High,48.5,High
+P0000291,86.7,Very High,83.6,Very High,58.8,Very High,48.7,High
+P0000292,82.4,Very High,76.2,Very High,48.3,High,55.7,Very High
+P0000293,87.6,Very High,75.8,Very High,54.6,Very High,57.1,Very High
+P0000294,81.7,Very High,67.1,Very High,52.1,Very High,58.1,Very High
+P0000295,77.5,Very High,80.2,Very High,57.9,Very High,54.6,Very High
+P0000296,79.4,Very High,72.6,Very High,58.8,Very High,63.7,Very High
+P0000297,82.2,Very High,59.0,Very High,52.6,Very High,64.2,Very High
+P0000298,85.5,Very High,80.4,Very High,48.5,High,45.8,High
+P0000299,82.7,Very High,80.9,Very High,55.7,Very High,61.7,Very High
+P0000300,79.5,Very High,72.3,Very High,45.9,High,47.5,High
+P0000301,48.4,High,70.8,Very High,54.6,Very High,52.9,Very High
+P0000302,81.4,Very High,77.1,Very High,55.2,Very High,47.8,High
+P0000303,81.9,Very High,71.8,Very High,56.3,Very High,56.8,Very High
+P0000304,84.8,Very High,81.4,Very High,59.1,Very High,54.3,Very High
+P0000305,85.7,Very High,75.4,Very High,58.2,Very High,64.1,Very High
+P0000306,44.6,High,66.7,Very High,48.0,High,58.1,Very High
+P0000307,86.0,Very High,75.8,Very High,45.4,High,60.5,Very High
+P0000308,78.3,Very High,73.5,Very High,50.4,Very High,54.5,Very High
+P0000309,85.5,Very High,73.1,Very High,57.7,Very High,50.6,Very High
+P0000310,88.0,Very High,78.1,Very High,46.4,High,63.0,Very High
+P0000311,82.6,Very High,76.0,Very High,46.0,High,51.0,Very High
+P0000312,86.2,Very High,66.8,Very High,59.9,Very High,61.2,Very High
+P0000313,87.2,Very High,73.2,Very High,47.0,High,62.2,Very High
+P0000314,82.5,Very High,71.1,Very High,51.6,Very High,51.1,Very High
+P0000315,80.8,Very High,76.6,Very High,56.3,Very High,54.7,Very High
+P0000316,83.7,Very High,80.9,Very High,51.5,Very High,60.4,Very High
+P0000317,53.2,Very High,75.1,Very High,49.7,High,52.5,Very High
+P0000318,79.8,Very High,80.2,Very High,55.6,Very High,51.2,Very High
+P0000319,77.0,Very High,74.1,Very High,49.6,High,46.0,High
+P0000320,77.5,Very High,77.6,Very High,53.4,Very High,55.7,Very High
+P0000321,78.1,Very High,79.8,Very High,52.6,Very High,61.0,Very High
+P0000322,89.7,Very High,76.4,Very High,53.8,Very High,48.4,High
+P0000323,82.7,Very High,74.1,Very High,56.6,Very High,49.4,High
+P0000324,84.1,Very High,76.7,Very High,51.9,Very High,52.9,Very High
+P0000325,85.0,Very High,73.7,Very High,46.7,High,56.6,Very High
+P0000326,86.1,Very High,71.1,Very High,52.9,Very High,57.0,Very High
+P0000327,81.3,Very High,80.8,Very High,58.1,Very High,62.9,Very High
+P0000328,72.8,Very High,75.4,Very High,58.8,Very High,53.0,Very High
+P0000329,79.1,Very High,82.4,Very High,58.3,Very High,51.6,Very High
+P0000330,82.1,Very High,83.1,Very High,51.9,Very High,56.8,Very High
+P0000331,85.2,Very High,75.5,Very High,50.1,Very High,56.8,Very High
+P0000332,59.0,Very High,71.2,Very High,42.5,High,55.8,Very High
+P0000333,84.0,Very High,79.4,Very High,58.4,Very High,48.2,High
+P0000334,85.3,Very High,73.5,Very High,63.5,Very High,51.4,Very High
+P0000335,44.4,High,80.8,Very High,48.7,High,48.6,High
+P0000336,77.1,Very High,75.6,Very High,52.8,Very High,47.5,High
+P0000337,80.9,Very High,80.6,Very High,46.8,High,61.9,Very High
+P0000338,85.1,Very High,74.4,Very High,53.4,Very High,52.2,Very High
+P0000339,80.9,Very High,69.4,Very High,57.7,Very High,49.3,High
+P0000340,79.5,Very High,71.9,Very High,44.6,High,58.3,Very High
+P0000341,75.1,Very High,82.2,Very High,49.1,High,52.4,Very High
+P0000342,66.0,Very High,73.8,Very High,49.9,High,47.9,High
+P0000343,81.4,Very High,73.6,Very High,61.2,Very High,51.3,Very High
+P0000344,85.3,Very High,76.2,Very High,61.3,Very High,56.9,Very High
+P0000345,83.3,Very High,79.2,Very High,49.4,High,53.5,Very High
+P0000346,75.3,Very High,77.8,Very High,57.9,Very High,55.0,Very High
+P0000347,89.4,Very High,76.3,Very High,53.4,Very High,51.7,Very High
+P0000348,84.2,Very High,71.7,Very High,56.8,Very High,59.3,Very High
+P0000349,81.2,Very High,79.7,Very High,46.1,High,53.2,Very High
+P0000350,81.8,Very High,64.3,Very High,53.8,Very High,51.5,Very High
+P0000351,78.0,Very High,74.7,Very High,60.5,Very High,49.6,High
+P0000352,87.4,Very High,77.5,Very High,61.9,Very High,48.7,High
+P0000353,84.5,Very High,79.8,Very High,54.9,Very High,52.8,Very High
+P0000354,85.7,Very High,75.1,Very High,48.3,High,56.3,Very High
+P0000355,80.3,Very High,68.0,Very High,59.9,Very High,53.7,Very High
+P0000356,80.3,Very High,78.0,Very High,48.1,High,59.7,Very High
+P0000357,86.9,Very High,76.6,Very High,63.1,Very High,58.1,Very High
+P0000358,88.6,Very High,72.8,Very High,54.1,Very High,55.4,Very High
+P0000359,85.2,Very High,81.9,Very High,49.1,High,56.5,Very High
+P0000360,80.5,Very High,81.1,Very High,44.2,High,59.5,Very High
+P0000361,80.5,Very High,75.6,Very High,60.2,Very High,46.0,High
+P0000362,84.6,Very High,65.0,Very High,59.9,Very High,52.1,Very High
+P0000363,81.3,Very High,67.6,Very High,60.8,Very High,47.2,High
+P0000364,73.9,Very High,76.1,Very High,55.5,Very High,54.8,Very High
+P0000365,73.1,Very High,81.4,Very High,59.3,Very High,52.5,Very High
+P0000366,89.7,Very High,79.1,Very High,57.8,Very High,61.3,Very High
+P0000367,79.5,Very High,78.6,Very High,50.0,High,52.0,Very High
+P0000368,90.0,Very High,82.6,Very High,58.6,Very High,58.0,Very High
+P0000369,81.0,Very High,76.9,Very High,48.7,High,51.8,Very High
+P0000370,86.0,Very High,62.3,Very High,52.8,Very High,54.7,Very High
+P0000371,78.0,Very High,78.3,Very High,48.9,High,47.5,High
+P0000372,49.2,High,63.6,Very High,54.8,Very High,61.9,Very High
+P0000373,89.0,Very High,74.2,Very High,47.1,High,59.4,Very High
+P0000374,87.8,Very High,76.4,Very High,58.1,Very High,55.8,Very High
+P0000375,81.9,Very High,73.5,Very High,59.2,Very High,52.1,Very High
+P0000376,84.1,Very High,74.1,Very High,46.4,High,59.6,Very High
+P0000377,87.4,Very High,79.9,Very High,51.2,Very High,58.5,Very High
+P0000378,76.4,Very High,81.4,Very High,60.0,Very High,57.4,Very High
+P0000379,87.0,Very High,81.5,Very High,49.4,High,48.0,High
+P0000380,85.4,Very High,78.7,Very High,46.1,High,56.0,Very High
+P0000381,81.1,Very High,75.5,Very High,50.0,Very High,54.6,Very High
+P0000382,87.9,Very High,75.8,Very High,50.6,Very High,53.1,Very High
+P0000383,47.7,High,76.2,Very High,61.5,Very High,57.7,Very High
+P0000384,72.9,Very High,80.8,Very High,47.1,High,59.7,Very High
+P0000385,83.4,Very High,79.9,Very High,57.7,Very High,51.6,Very High
+P0000386,84.8,Very High,75.8,Very High,47.5,High,49.9,High
+P0000387,86.9,Very High,71.6,Very High,51.4,Very High,50.5,Very High
+P0000388,87.8,Very High,80.3,Very High,57.0,Very High,52.6,Very High
+P0000389,80.8,Very High,64.1,Very High,48.2,High,45.1,High
+P0000390,83.1,Very High,79.6,Very High,58.4,Very High,61.5,Very High
+P0000391,85.9,Very High,78.6,Very High,54.3,Very High,54.3,Very High
+P0000392,86.2,Very High,71.4,Very High,53.9,Very High,61.7,Very High
+P0000393,82.8,Very High,77.3,Very High,60.1,Very High,56.5,Very High
+P0000394,84.2,Very High,76.9,Very High,60.6,Very High,55.2,Very High
+P0000395,73.0,Very High,82.0,Very High,48.4,High,47.7,High
+P0000396,80.1,Very High,78.2,Very High,49.4,High,49.3,High
+P0000397,85.1,Very High,71.6,Very High,57.5,Very High,52.3,Very High
+P0000398,87.0,Very High,72.9,Very High,58.6,Very High,52.2,Very High
+P0000399,80.5,Very High,74.4,Very High,50.3,Very High,47.8,High
+P0000400,86.2,Very High,82.8,Very High,63.1,Very High,64.0,Very High
+P0000401,90.1,Very High,80.7,Very High,59.5,Very High,55.2,Very High
+P0000402,85.6,Very High,71.7,Very High,44.4,High,53.4,Very High
+P0000403,88.9,Very High,78.4,Very High,61.3,Very High,50.2,Very High
+P0000404,90.5,Very High,74.3,Very High,57.7,Very High,64.4,Very High
+P0000405,90.2,Very High,65.9,Very High,55.7,Very High,61.6,Very High
+P0000406,79.2,Very High,78.7,Very High,56.1,Very High,56.1,Very High
+P0000407,80.9,Very High,80.2,Very High,58.6,Very High,53.3,Very High
+P0000408,83.7,Very High,71.9,Very High,44.4,High,50.3,Very High
+P0000409,83.3,Very High,80.0,Very High,56.5,Very High,60.8,Very High
+P0000410,81.6,Very High,75.3,Very High,47.0,High,55.7,Very High
+P0000411,76.6,Very High,81.9,Very High,52.7,Very High,52.2,Very High
+P0000412,77.8,Very High,80.9,Very High,48.1,High,51.9,Very High
+P0000413,83.2,Very High,81.4,Very High,63.2,Very High,54.6,Very High
+P0000414,78.3,Very High,74.0,Very High,49.8,High,49.1,High
+P0000415,83.5,Very High,79.1,Very High,59.0,Very High,54.5,Very High
+P0000416,85.7,Very High,77.5,Very High,53.7,Very High,50.4,Very High
+P0000417,87.2,Very High,59.8,Very High,47.7,High,57.8,Very High
+P0000418,85.1,Very High,80.2,Very High,61.4,Very High,48.9,High
+P0000419,62.8,Very High,73.2,Very High,58.0,Very High,57.3,Very High
+P0000420,85.6,Very High,61.8,Very High,49.4,High,55.4,Very High
+P0000421,83.9,Very High,77.1,Very High,60.6,Very High,56.5,Very High
+P0000422,80.1,Very High,83.9,Very High,57.5,Very High,57.4,Very High
+P0000423,89.3,Very High,82.9,Very High,58.5,Very High,51.5,Very High
+P0000424,82.8,Very High,79.4,Very High,57.3,Very High,47.4,High
+P0000425,82.5,Very High,75.8,Very High,50.5,Very High,63.4,Very High
+P0000426,80.3,Very High,76.2,Very High,57.1,Very High,46.9,High
+P0000427,80.1,Very High,74.8,Very High,58.5,Very High,55.7,Very High
+P0000428,85.9,Very High,80.7,Very High,48.5,High,56.8,Very High
+P0000429,73.5,Very High,68.1,Very High,59.3,Very High,61.1,Very High
+P0000430,85.9,Very High,59.8,Very High,58.9,Very High,49.7,High
+P0000431,88.7,Very High,77.8,Very High,49.1,High,57.6,Very High
+P0000432,82.6,Very High,58.4,Very High,59.9,Very High,64.1,Very High
+P0000433,83.1,Very High,79.1,Very High,46.5,High,54.4,Very High
+P0000434,79.2,Very High,80.9,Very High,56.9,Very High,60.2,Very High
+P0000435,88.2,Very High,60.2,Very High,59.4,Very High,47.9,High
+P0000436,88.4,Very High,66.3,Very High,58.9,Very High,50.7,Very High
+P0000437,62.2,Very High,74.7,Very High,61.4,Very High,50.4,Very High
+P0000438,77.3,Very High,80.3,Very High,59.0,Very High,50.4,Very High
+P0000439,74.2,Very High,82.7,Very High,48.8,High,62.3,Very High
+P0000440,83.4,Very High,76.1,Very High,56.9,Very High,58.0,Very High
+P0000441,84.1,Very High,78.2,Very High,54.2,Very High,51.9,Very High
+P0000442,76.3,Very High,79.4,Very High,50.0,Very High,54.6,Very High
+P0000443,80.3,Very High,74.8,Very High,51.6,Very High,49.5,High
+P0000444,77.0,Very High,74.6,Very High,59.2,Very High,50.9,Very High
+P0000445,49.6,High,63.9,Very High,47.8,High,57.6,Very High
+P0000446,38.4,High,80.1,Very High,50.8,Very High,53.1,Very High
+P0000447,44.2,High,74.7,Very High,45.9,High,51.1,Very High
+P0000448,85.8,Very High,63.1,Very High,53.1,Very High,50.3,Very High
+P0000449,90.6,Very High,82.0,Very High,45.2,High,47.4,High
+P0000450,87.0,Very High,62.1,Very High,62.0,Very High,61.5,Very High
+P0000451,81.7,Very High,74.9,Very High,54.6,Very High,54.1,Very High
+P0000452,85.2,Very High,68.2,Very High,50.0,Very High,52.3,Very High
+P0000453,84.5,Very High,73.2,Very High,56.7,Very High,59.0,Very High
+P0000454,87.1,Very High,71.8,Very High,52.5,Very High,55.7,Very High
+P0000455,77.0,Very High,74.2,Very High,59.5,Very High,48.1,High
+P0000456,85.2,Very High,71.1,Very High,59.1,Very High,48.8,High
+P0000457,73.5,Very High,74.7,Very High,59.7,Very High,46.7,High
+P0000458,84.9,Very High,69.4,Very High,55.3,Very High,50.1,Very High
+P0000459,74.5,Very High,79.8,Very High,49.5,High,48.0,High
+P0000460,85.0,Very High,78.4,Very High,51.6,Very High,58.3,Very High
+P0000461,85.5,Very High,73.5,Very High,48.8,High,46.5,High
+P0000462,90.6,Very High,76.0,Very High,49.0,High,56.8,Very High
+P0000463,76.3,Very High,80.8,Very High,57.0,Very High,50.1,Very High
+P0000464,48.1,High,85.0,Very High,53.5,Very High,52.3,Very High
+P0000465,81.5,Very High,83.1,Very High,56.7,Very High,57.0,Very High
+P0000466,81.6,Very High,78.1,Very High,49.4,High,50.1,Very High
+P0000467,80.6,Very High,79.7,Very High,52.5,Very High,52.6,Very High
+P0000468,89.0,Very High,75.3,Very High,48.2,High,56.4,Very High
+P0000469,84.7,Very High,77.4,Very High,49.3,High,46.4,High
+P0000470,85.9,Very High,84.0,Very High,44.4,High,58.2,Very High
+P0000471,83.0,Very High,67.2,Very High,57.3,Very High,52.7,Very High
+P0000472,84.5,Very High,81.7,Very High,53.9,Very High,52.3,Very High
+P0000473,81.8,Very High,77.4,Very High,49.2,High,48.9,High
+P0000474,81.8,Very High,75.4,Very High,56.3,Very High,57.0,Very High
+P0000475,82.8,Very High,76.9,Very High,47.8,High,54.7,Very High
+P0000476,85.9,Very High,78.8,Very High,57.0,Very High,48.7,High
+P0000477,86.5,Very High,62.5,Very High,56.6,Very High,59.3,Very High
+P0000478,78.2,Very High,82.3,Very High,59.9,Very High,60.2,Very High
+P0000479,90.2,Very High,78.8,Very High,52.8,Very High,57.0,Very High
+P0000480,86.5,Very High,76.4,Very High,51.0,Very High,53.3,Very High
+P0000481,80.9,Very High,78.9,Very High,50.3,Very High,46.0,High
+P0000482,85.3,Very High,78.2,Very High,57.0,Very High,57.6,Very High
+P0000483,84.2,Very High,75.0,Very High,55.4,Very High,52.6,Very High
+P0000484,88.4,Very High,82.6,Very High,58.4,Very High,48.5,High
+P0000485,90.1,Very High,73.2,Very High,52.9,Very High,59.3,Very High
+P0000486,52.3,Very High,84.1,Very High,57.4,Very High,54.0,Very High
+P0000487,82.0,Very High,79.8,Very High,55.1,Very High,53.3,Very High
+P0000488,77.0,Very High,69.4,Very High,63.1,Very High,47.7,High
+P0000489,84.1,Very High,78.7,Very High,45.9,High,55.8,Very High
+P0000490,91.7,Very High,63.9,Very High,46.4,High,55.1,Very High
+P0000491,88.6,Very High,71.4,Very High,54.5,Very High,56.3,Very High
+P0000492,52.1,Very High,74.4,Very High,60.6,Very High,50.2,Very High
+P0000493,58.1,Very High,79.7,Very High,53.2,Very High,58.3,Very High
+P0000494,82.6,Very High,74.0,Very High,52.4,Very High,56.6,Very High
+P0000495,82.6,Very High,76.7,Very High,52.4,Very High,47.6,High
+P0000496,85.0,Very High,78.3,Very High,60.0,Very High,51.3,Very High
+P0000497,75.2,Very High,82.9,Very High,62.2,Very High,60.4,Very High
+P0000498,87.1,Very High,79.3,Very High,55.3,Very High,49.1,High
+P0000499,84.2,Very High,77.4,Very High,60.7,Very High,51.1,Very High
+P0000500,71.8,Very High,79.8,Very High,60.4,Very High,49.9,High
+P0000501,82.1,Very High,63.1,Very High,57.4,Very High,59.5,Very High
+P0000502,82.3,Very High,70.3,Very High,44.7,High,58.9,Very High
+P0000503,80.8,Very High,81.5,Very High,47.1,High,59.9,Very High
+P0000504,68.9,Very High,74.4,Very High,45.2,High,53.5,Very High
+P0000505,81.6,Very High,75.6,Very High,56.1,Very High,59.3,Very High
+P0000506,84.1,Very High,75.0,Very High,60.9,Very High,57.0,Very High
+P0000507,83.9,Very High,79.7,Very High,47.0,High,47.6,High
+P0000508,87.9,Very High,78.4,Very High,58.7,Very High,50.1,Very High
+P0000509,81.6,Very High,76.0,Very High,59.2,Very High,55.4,Very High
+P0000510,85.8,Very High,75.8,Very High,56.4,Very High,47.3,High
+P0000511,78.2,Very High,80.2,Very High,49.7,High,56.3,Very High
+P0000512,86.9,Very High,78.6,Very High,45.5,High,51.4,Very High
+P0000513,83.5,Very High,75.1,Very High,60.9,Very High,60.3,Very High
+P0000514,89.9,Very High,80.6,Very High,54.2,Very High,56.6,Very High
+P0000515,84.0,Very High,73.3,Very High,60.4,Very High,58.5,Very High
+P0000516,87.0,Very High,69.0,Very High,60.1,Very High,55.8,Very High
+P0000517,83.7,Very High,74.6,Very High,51.5,Very High,62.1,Very High
+P0000518,85.8,Very High,76.9,Very High,58.4,Very High,52.7,Very High
+P0000519,85.6,Very High,72.1,Very High,44.2,High,59.3,Very High
+P0000520,78.6,Very High,72.6,Very High,47.9,High,51.3,Very High
+P0000521,83.6,Very High,71.9,Very High,50.0,High,66.4,Very High
+P0000522,87.6,Very High,78.7,Very High,52.1,Very High,51.2,Very High
+P0000523,86.0,Very High,77.4,Very High,60.9,Very High,46.7,High
+P0000524,81.9,Very High,78.3,Very High,53.4,Very High,47.6,High
+P0000525,83.8,Very High,72.9,Very High,46.4,High,60.6,Very High
+P0000526,86.6,Very High,64.8,Very High,61.6,Very High,60.9,Very High
+P0000527,81.3,Very High,74.2,Very High,52.8,Very High,57.1,Very High
+P0000528,84.4,Very High,77.4,Very High,55.8,Very High,59.8,Very High
+P0000529,82.0,Very High,77.1,Very High,60.1,Very High,49.6,High
+P0000530,83.7,Very High,75.9,Very High,47.8,High,49.6,High
+P0000531,84.3,Very High,82.1,Very High,50.4,Very High,52.3,Very High
+P0000532,85.1,Very High,83.5,Very High,60.8,Very High,55.9,Very High
+P0000533,86.5,Very High,79.0,Very High,54.6,Very High,54.9,Very High
+P0000534,84.7,Very High,74.1,Very High,57.0,Very High,46.2,High
+P0000535,50.8,Very High,69.3,Very High,55.4,Very High,52.4,Very High
+P0000536,85.5,Very High,76.7,Very High,58.8,Very High,51.3,Very High
+P0000537,81.3,Very High,68.5,Very High,61.2,Very High,45.1,High
+P0000538,78.6,Very High,80.6,Very High,49.1,High,48.6,High
+P0000539,50.0,High,67.5,Very High,60.7,Very High,56.0,Very High
+P0000540,81.1,Very High,78.4,Very High,60.0,Very High,58.5,Very High
+P0000541,81.6,Very High,77.9,Very High,46.6,High,56.6,Very High
+P0000542,78.5,Very High,81.3,Very High,56.4,Very High,50.5,Very High
+P0000543,85.7,Very High,72.7,Very High,59.3,Very High,44.8,High
+P0000544,80.5,Very High,79.2,Very High,57.1,Very High,46.5,High
+P0000545,84.1,Very High,80.5,Very High,54.0,Very High,60.2,Very High
+P0000546,87.0,Very High,80.7,Very High,50.0,Very High,54.8,Very High
+P0000547,82.1,Very High,63.4,Very High,46.2,High,49.0,High
+P0000548,81.0,Very High,74.6,Very High,60.6,Very High,46.9,High
+P0000549,73.6,Very High,67.7,Very High,49.1,High,52.3,Very High
+P0000550,87.6,Very High,75.0,Very High,60.6,Very High,55.0,Very High
+P0000551,86.0,Very High,73.1,Very High,47.5,High,53.2,Very High
+P0000552,84.5,Very High,69.7,Very High,55.7,Very High,56.5,Very High
+P0000553,79.3,Very High,69.2,Very High,61.5,Very High,55.5,Very High
+P0000554,82.9,Very High,79.6,Very High,60.4,Very High,56.8,Very High
+P0000555,58.4,Very High,79.3,Very High,57.1,Very High,47.1,High
+P0000556,77.7,Very High,78.7,Very High,56.9,Very High,47.1,High
+P0000557,74.6,Very High,79.5,Very High,53.3,Very High,54.9,Very High
+P0000558,82.5,Very High,82.2,Very High,62.7,Very High,50.9,Very High
+P0000559,83.4,Very High,78.7,Very High,57.9,Very High,56.0,Very High
+P0000560,80.8,Very High,81.1,Very High,56.5,Very High,56.7,Very High
+P0000561,81.8,Very High,77.3,Very High,45.8,High,56.3,Very High
+P0000562,84.5,Very High,76.5,Very High,52.2,Very High,56.6,Very High
+P0000563,75.4,Very High,76.8,Very High,56.7,Very High,55.0,Very High
+P0000564,86.2,Very High,76.9,Very High,54.7,Very High,52.1,Very High
+P0000565,83.8,Very High,71.6,Very High,47.8,High,57.9,Very High
+P0000566,83.9,Very High,73.9,Very High,59.3,Very High,54.8,Very High
+P0000567,81.8,Very High,81.2,Very High,56.2,Very High,54.7,Very High
+P0000568,87.5,Very High,75.9,Very High,50.2,Very High,47.1,High
+P0000569,85.6,Very High,65.4,Very High,62.0,Very High,50.3,Very High
+P0000570,87.6,Very High,64.3,Very High,59.1,Very High,51.5,Very High
+P0000571,77.6,Very High,75.3,Very High,55.1,Very High,48.5,High
+P0000572,83.2,Very High,72.4,Very High,60.4,Very High,46.6,High
+P0000573,85.9,Very High,77.5,Very High,53.0,Very High,52.9,Very High
+P0000574,86.1,Very High,81.4,Very High,61.0,Very High,57.4,Very High
+P0000575,82.3,Very High,74.6,Very High,52.2,Very High,49.7,High
+P0000576,82.8,Very High,76.8,Very High,48.6,High,59.6,Very High
+P0000577,84.8,Very High,78.6,Very High,56.9,Very High,51.9,Very High
+P0000578,80.2,Very High,75.7,Very High,53.0,Very High,56.9,Very High
+P0000579,88.4,Very High,82.6,Very High,62.7,Very High,63.0,Very High
+P0000580,86.8,Very High,65.9,Very High,55.7,Very High,62.2,Very High
+P0000581,80.8,Very High,74.7,Very High,52.8,Very High,50.1,Very High
+P0000582,78.1,Very High,79.8,Very High,56.3,Very High,48.1,High
+P0000583,80.9,Very High,67.3,Very High,49.4,High,61.0,Very High
+P0000584,84.4,Very High,80.6,Very High,60.8,Very High,57.6,Very High
+P0000585,56.3,Very High,59.5,Very High,48.7,High,52.2,Very High
+P0000586,86.5,Very High,75.8,Very High,53.8,Very High,56.0,Very High
+P0000587,84.9,Very High,77.7,Very High,57.2,Very High,57.2,Very High
+P0000588,86.6,Very High,74.9,Very High,51.2,Very High,51.8,Very High
+P0000589,86.9,Very High,63.7,Very High,54.3,Very High,47.4,High
+P0000590,87.4,Very High,78.0,Very High,55.4,Very High,55.7,Very High
+P0000591,78.7,Very High,79.4,Very High,47.6,High,46.1,High
+P0000592,51.9,Very High,74.7,Very High,59.5,Very High,48.0,High
+P0000593,78.0,Very High,75.1,Very High,55.7,Very High,52.6,Very High
+P0000594,76.5,Very High,77.2,Very High,47.2,High,54.2,Very High
+P0000595,78.9,Very High,77.0,Very High,59.6,Very High,46.9,High
+P0000596,80.5,Very High,74.2,Very High,60.5,Very High,54.7,Very High
+P0000597,85.1,Very High,79.0,Very High,46.7,High,50.4,Very High
+P0000598,79.3,Very High,61.5,Very High,59.1,Very High,45.3,High
+P0000599,86.0,Very High,76.7,Very High,48.4,High,50.7,Very High
+P0000600,79.2,Very High,78.8,Very High,57.8,Very High,52.1,Very High
+P0000601,83.3,Very High,77.7,Very High,57.5,Very High,52.3,Very High
+P0000602,82.6,Very High,84.4,Very High,56.5,Very High,58.5,Very High
+P0000603,86.8,Very High,74.6,Very High,50.5,Very High,56.0,Very High
+P0000604,85.2,Very High,76.6,Very High,47.1,High,46.4,High
+P0000605,47.7,High,80.2,Very High,50.8,Very High,50.6,Very High
+P0000606,90.7,Very High,70.8,Very High,63.2,Very High,54.9,Very High
+P0000607,76.7,Very High,73.9,Very High,47.3,High,53.9,Very High
+P0000608,85.8,Very High,71.2,Very High,55.9,Very High,47.8,High
+P0000609,79.1,Very High,77.7,Very High,57.2,Very High,57.1,Very High
+P0000610,86.0,Very High,77.8,Very High,59.7,Very High,55.7,Very High
+P0000611,83.0,Very High,78.6,Very High,52.5,Very High,53.6,Very High
+P0000612,81.3,Very High,75.8,Very High,49.6,High,52.3,Very High
+P0000613,77.7,Very High,76.6,Very High,51.6,Very High,54.5,Very High
+P0000614,50.1,Very High,73.0,Very High,58.8,Very High,53.2,Very High
+P0000615,83.1,Very High,73.9,Very High,55.2,Very High,53.2,Very High
+P0000616,77.5,Very High,81.8,Very High,59.1,Very High,60.5,Very High
+P0000617,83.5,Very High,77.9,Very High,50.6,Very High,53.2,Very High
+P0000618,88.0,Very High,75.5,Very High,55.5,Very High,55.2,Very High
+P0000619,87.2,Very High,83.2,Very High,45.7,High,56.2,Very High
+P0000620,88.1,Very High,79.0,Very High,45.2,High,63.0,Very High
+P0000621,85.6,Very High,77.8,Very High,52.9,Very High,52.0,Very High
+P0000622,81.5,Very High,78.4,Very High,53.8,Very High,58.1,Very High
+P0000623,86.1,Very High,75.5,Very High,56.5,Very High,62.5,Very High
+P0000624,89.3,Very High,79.9,Very High,61.7,Very High,57.2,Very High
+P0000625,84.9,Very High,76.9,Very High,50.7,Very High,52.0,Very High
+P0000626,84.9,Very High,77.6,Very High,62.1,Very High,46.9,High
+P0000627,52.8,Very High,79.6,Very High,56.0,Very High,59.4,Very High
+P0000628,84.7,Very High,79.5,Very High,54.0,Very High,58.4,Very High
+P0000629,80.1,Very High,78.2,Very High,52.7,Very High,50.1,Very High
+P0000630,77.2,Very High,78.7,Very High,58.3,Very High,55.5,Very High
+P0000631,87.1,Very High,64.0,Very High,49.6,High,51.8,Very High
+P0000632,86.8,Very High,75.0,Very High,59.3,Very High,48.3,High
+P0000633,76.3,Very High,76.6,Very High,61.1,Very High,53.6,Very High
+P0000634,77.6,Very High,80.0,Very High,46.1,High,60.4,Very High
+P0000635,83.0,Very High,79.0,Very High,52.6,Very High,52.2,Very High
+P0000636,82.1,Very High,80.3,Very High,53.6,Very High,49.6,High
+P0000637,83.6,Very High,80.3,Very High,57.4,Very High,51.8,Very High
+P0000638,69.1,Very High,80.5,Very High,56.4,Very High,53.0,Very High
+P0000639,80.9,Very High,79.3,Very High,53.3,Very High,51.5,Very High
+P0000640,83.9,Very High,79.9,Very High,59.5,Very High,49.3,High
+P0000641,85.3,Very High,80.6,Very High,60.3,Very High,57.5,Very High
+P0000642,75.2,Very High,74.9,Very High,54.7,Very High,59.9,Very High
+P0000643,85.7,Very High,63.6,Very High,58.3,Very High,51.6,Very High
+P0000644,81.0,Very High,72.0,Very High,55.7,Very High,48.9,High
+P0000645,86.5,Very High,74.3,Very High,58.5,Very High,54.5,Very High
+P0000646,86.1,Very High,76.0,Very High,51.7,Very High,49.0,High
+P0000647,87.6,Very High,70.8,Very High,50.5,Very High,54.9,Very High
+P0000648,71.7,Very High,78.1,Very High,54.8,Very High,49.7,High
+P0000649,77.5,Very High,78.1,Very High,47.6,High,53.8,Very High
+P0000650,83.7,Very High,80.2,Very High,59.9,Very High,47.4,High
+P0000651,83.6,Very High,72.4,Very High,50.7,Very High,49.9,High
+P0000652,81.3,Very High,80.9,Very High,57.1,Very High,49.4,High
+P0000653,86.5,Very High,71.8,Very High,58.6,Very High,47.2,High
+P0000654,46.5,High,77.4,Very High,54.6,Very High,53.5,Very High
+P0000655,85.1,Very High,65.9,Very High,60.4,Very High,58.0,Very High
+P0000656,83.0,Very High,65.2,Very High,58.8,Very High,47.0,High
+P0000657,83.6,Very High,77.5,Very High,54.7,Very High,47.3,High
+P0000658,82.2,Very High,62.0,Very High,59.4,Very High,50.8,Very High
+P0000659,83.4,Very High,74.1,Very High,49.0,High,55.7,Very High
+P0000660,43.1,High,82.4,Very High,60.3,Very High,59.4,Very High
+P0000661,70.9,Very High,75.3,Very High,57.5,Very High,55.7,Very High
+P0000662,83.2,Very High,79.9,Very High,59.4,Very High,52.4,Very High
+P0000663,85.4,Very High,80.8,Very High,51.2,Very High,50.9,Very High
+P0000664,86.1,Very High,79.0,Very High,47.6,High,49.1,High
+P0000665,89.2,Very High,78.6,Very High,47.1,High,61.4,Very High
+P0000666,79.0,Very High,82.0,Very High,55.5,Very High,58.0,Very High
+P0000667,81.4,Very High,80.0,Very High,59.5,Very High,54.0,Very High
+P0000668,84.0,Very High,61.1,Very High,58.7,Very High,57.1,Very High
+P0000669,84.5,Very High,78.0,Very High,56.1,Very High,56.8,Very High
+P0000670,77.2,Very High,69.3,Very High,51.3,Very High,62.3,Very High
+P0000671,84.9,Very High,77.6,Very High,50.5,Very High,47.9,High
+P0000672,83.5,Very High,75.5,Very High,49.5,High,56.2,Very High
+P0000673,78.3,Very High,78.1,Very High,51.0,Very High,49.0,High
+P0000674,83.0,Very High,78.4,Very High,63.3,Very High,48.5,High
+P0000675,82.2,Very High,73.8,Very High,60.7,Very High,52.9,Very High
+P0000676,81.1,Very High,79.1,Very High,58.4,Very High,58.6,Very High
+P0000677,89.6,Very High,63.5,Very High,55.4,Very High,59.8,Very High
+P0000678,88.1,Very High,67.9,Very High,45.2,High,66.9,Very High
+P0000679,84.7,Very High,73.3,Very High,59.7,Very High,52.3,Very High
+P0000680,83.2,Very High,80.1,Very High,48.6,High,58.0,Very High
+P0000681,83.9,Very High,76.9,Very High,52.4,Very High,57.7,Very High
+P0000682,87.2,Very High,80.0,Very High,59.6,Very High,54.3,Very High
+P0000683,77.1,Very High,79.3,Very High,54.7,Very High,46.4,High
+P0000684,82.9,Very High,75.5,Very High,60.0,Very High,61.2,Very High
+P0000685,80.0,Very High,79.8,Very High,51.8,Very High,46.5,High
+P0000686,83.1,Very High,80.6,Very High,61.6,Very High,62.6,Very High
+P0000687,83.1,Very High,64.1,Very High,57.2,Very High,50.5,Very High
+P0000688,63.0,Very High,75.4,Very High,58.4,Very High,44.2,High
+P0000689,84.0,Very High,81.9,Very High,50.7,Very High,53.4,Very High
+P0000690,78.5,Very High,77.9,Very High,55.5,Very High,45.3,High
+P0000691,86.9,Very High,70.5,Very High,59.8,Very High,48.7,High
+P0000692,83.0,Very High,80.6,Very High,60.5,Very High,57.9,Very High
+P0000693,88.6,Very High,68.8,Very High,45.0,High,60.2,Very High
+P0000694,44.1,High,78.1,Very High,48.5,High,60.4,Very High
+P0000695,81.2,Very High,82.6,Very High,48.0,High,60.3,Very High
+P0000696,91.1,Very High,77.9,Very High,59.9,Very High,57.3,Very High
+P0000697,69.8,Very High,75.4,Very High,54.4,Very High,55.5,Very High
+P0000698,86.4,Very High,62.1,Very High,60.2,Very High,62.2,Very High
+P0000699,87.6,Very High,77.2,Very High,58.9,Very High,59.6,Very High
+P0000700,78.6,Very High,76.9,Very High,58.1,Very High,61.4,Very High
+P0000701,87.8,Very High,72.3,Very High,53.6,Very High,54.2,Very High
+P0000702,89.2,Very High,76.6,Very High,53.1,Very High,46.6,High
+P0000703,85.3,Very High,86.0,Very High,56.1,Very High,62.0,Very High
+P0000704,74.4,Very High,81.2,Very High,57.9,Very High,51.6,Very High
+P0000705,80.9,Very High,76.4,Very High,60.1,Very High,46.7,High
+P0000706,82.6,Very High,79.8,Very High,51.1,Very High,53.0,Very High
+P0000707,80.2,Very High,81.0,Very High,53.1,Very High,53.3,Very High
+P0000708,84.0,Very High,70.3,Very High,50.0,Very High,55.4,Very High
+P0000709,86.7,Very High,83.5,Very High,61.3,Very High,59.4,Very High
+P0000710,55.7,Very High,74.1,Very High,58.8,Very High,56.1,Very High
+P0000711,57.1,Very High,77.2,Very High,51.8,Very High,48.5,High
+P0000712,81.9,Very High,69.5,Very High,58.9,Very High,58.8,Very High
+P0000713,85.6,Very High,82.3,Very High,58.6,Very High,57.2,Very High
+P0000714,86.2,Very High,80.1,Very High,53.2,Very High,51.8,Very High
+P0000715,53.8,Very High,77.9,Very High,55.2,Very High,48.0,High
+P0000716,82.9,Very High,74.4,Very High,49.1,High,56.9,Very High
+P0000717,83.5,Very High,76.3,Very High,48.6,High,48.1,High
+P0000718,75.8,Very High,70.3,Very High,55.9,Very High,52.7,Very High
+P0000719,54.1,Very High,79.4,Very High,54.8,Very High,50.1,Very High
+P0000720,80.5,Very High,76.7,Very High,52.8,Very High,55.7,Very High
+P0000721,37.4,High,81.5,Very High,59.3,Very High,59.3,Very High
+P0000722,83.6,Very High,71.1,Very High,48.4,High,48.0,High
+P0000723,76.1,Very High,79.9,Very High,57.4,Very High,48.2,High
+P0000724,47.5,High,72.6,Very High,49.6,High,49.0,High
+P0000725,88.3,Very High,71.3,Very High,51.7,Very High,59.0,Very High
+P0000726,81.0,Very High,75.5,Very High,49.9,High,54.8,Very High
+P0000727,76.3,Very High,73.5,Very High,56.7,Very High,50.6,Very High
+P0000728,86.2,Very High,76.7,Very High,62.0,Very High,56.2,Very High
+P0000729,40.9,High,74.0,Very High,58.5,Very High,52.7,Very High
+P0000730,85.6,Very High,81.7,Very High,49.8,High,64.2,Very High
+P0000731,80.6,Very High,75.4,Very High,56.6,Very High,52.8,Very High
+P0000732,85.7,Very High,81.5,Very High,57.5,Very High,53.8,Very High
+P0000733,84.0,Very High,75.5,Very High,54.4,Very High,54.2,Very High
+P0000734,76.4,Very High,73.0,Very High,60.2,Very High,46.8,High
+P0000735,82.9,Very High,60.4,Very High,62.2,Very High,52.4,Very High
+P0000736,84.7,Very High,71.0,Very High,57.3,Very High,49.9,High
+P0000737,84.7,Very High,73.2,Very High,54.4,Very High,52.2,Very High
+P0000738,85.8,Very High,77.8,Very High,59.5,Very High,49.9,High
+P0000739,78.7,Very High,82.9,Very High,56.8,Very High,54.7,Very High
+P0000740,52.4,Very High,84.9,Very High,50.4,Very High,49.9,High
+P0000741,80.3,Very High,64.1,Very High,57.6,Very High,56.5,Very High
+P0000742,86.4,Very High,76.2,Very High,43.0,High,51.7,Very High
+P0000743,80.0,Very High,77.7,Very High,59.5,Very High,52.6,Very High
+P0000744,37.0,High,81.5,Very High,52.6,Very High,48.9,High
+P0000745,83.6,Very High,78.5,Very High,51.1,Very High,51.7,Very High
+P0000746,80.7,Very High,71.8,Very High,55.1,Very High,57.0,Very High
+P0000747,85.8,Very High,74.7,Very High,60.0,Very High,51.2,Very High
+P0000748,86.0,Very High,68.9,Very High,53.7,Very High,60.7,Very High
+P0000749,86.0,Very High,75.3,Very High,53.8,Very High,57.6,Very High
+P0000750,86.6,Very High,76.9,Very High,50.2,Very High,50.3,Very High
+P0000751,87.3,Very High,73.7,Very High,60.1,Very High,54.9,Very High
+P0000752,74.7,Very High,78.4,Very High,58.3,Very High,55.3,Very High
+P0000753,81.5,Very High,77.8,Very High,57.7,Very High,49.6,High
+P0000754,85.2,Very High,72.1,Very High,56.9,Very High,48.8,High
+P0000755,83.6,Very High,74.7,Very High,55.0,Very High,58.2,Very High
+P0000756,86.7,Very High,77.3,Very High,56.0,Very High,59.4,Very High
+P0000757,89.0,Very High,79.5,Very High,50.2,Very High,56.1,Very High
+P0000758,79.4,Very High,69.5,Very High,50.8,Very High,58.7,Very High
+P0000759,80.2,Very High,73.8,Very High,47.8,High,56.1,Very High
+P0000760,84.5,Very High,74.5,Very High,46.5,High,52.3,Very High
+P0000761,83.8,Very High,76.8,Very High,54.4,Very High,47.9,High
+P0000762,87.7,Very High,60.1,Very High,53.6,Very High,53.4,Very High
+P0000763,85.2,Very High,72.6,Very High,60.6,Very High,48.7,High
+P0000764,85.4,Very High,62.6,Very High,47.4,High,63.5,Very High
+P0000765,85.1,Very High,69.9,Very High,46.2,High,54.4,Very High
+P0000766,76.8,Very High,82.2,Very High,49.5,High,57.0,Very High
+P0000767,77.4,Very High,77.4,Very High,47.8,High,53.4,Very High
+P0000768,85.9,Very High,68.6,Very High,60.1,Very High,45.9,High
+P0000769,75.2,Very High,84.8,Very High,49.4,High,57.4,Very High
+P0000770,86.5,Very High,74.2,Very High,57.6,Very High,48.6,High
+P0000771,88.2,Very High,66.1,Very High,49.2,High,54.1,Very High
+P0000772,79.9,Very High,74.5,Very High,49.3,High,51.0,Very High
+P0000773,84.5,Very High,74.3,Very High,55.5,Very High,53.1,Very High
+P0000774,87.4,Very High,74.3,Very High,59.2,Very High,60.8,Very High
+P0000775,84.3,Very High,76.6,Very High,45.8,High,47.7,High
+P0000776,83.4,Very High,65.6,Very High,51.0,Very High,47.5,High
+P0000777,85.5,Very High,75.8,Very High,61.6,Very High,48.2,High
+P0000778,88.3,Very High,78.5,Very High,60.2,Very High,57.5,Very High
+P0000779,84.8,Very High,79.6,Very High,55.0,Very High,60.4,Very High
+P0000780,40.2,High,81.1,Very High,56.2,Very High,53.7,Very High
+P0000781,83.5,Very High,74.1,Very High,58.8,Very High,54.9,Very High
+P0000782,46.8,High,82.0,Very High,51.1,Very High,59.3,Very High
+P0000783,82.7,Very High,72.4,Very High,51.6,Very High,51.7,Very High
+P0000784,85.0,Very High,71.9,Very High,58.3,Very High,49.7,High
+P0000785,48.6,High,77.0,Very High,53.7,Very High,62.4,Very High
+P0000786,85.7,Very High,77.9,Very High,55.7,Very High,52.9,Very High
+P0000787,85.0,Very High,68.2,Very High,62.7,Very High,57.0,Very High
+P0000788,79.3,Very High,83.0,Very High,51.0,Very High,52.6,Very High
+P0000789,77.0,Very High,79.7,Very High,45.7,High,47.1,High
+P0000790,84.7,Very High,76.7,Very High,48.5,High,60.4,Very High
+P0000791,88.5,Very High,77.4,Very High,59.5,Very High,62.5,Very High
+P0000792,51.8,Very High,82.4,Very High,51.6,Very High,56.9,Very High
+P0000793,80.2,Very High,62.2,Very High,49.2,High,60.3,Very High
+P0000794,78.6,Very High,76.4,Very High,55.6,Very High,53.7,Very High
+P0000795,83.7,Very High,81.4,Very High,55.4,Very High,58.0,Very High
+P0000796,78.0,Very High,72.4,Very High,51.6,Very High,46.9,High
+P0000797,82.8,Very High,64.7,Very High,49.9,High,55.2,Very High
+P0000798,56.5,Very High,69.0,Very High,47.2,High,48.6,High
+P0000799,87.9,Very High,73.7,Very High,52.7,Very High,51.2,Very High
+P0000800,88.7,Very High,76.2,Very High,56.9,Very High,54.2,Very High
+P0000801,87.4,Very High,81.4,Very High,52.1,Very High,50.8,Very High
+P0000802,86.6,Very High,74.9,Very High,56.2,Very High,51.5,Very High
+P0000803,89.1,Very High,68.7,Very High,57.8,Very High,47.6,High
+P0000804,61.0,Very High,64.2,Very High,54.4,Very High,59.3,Very High
+P0000805,78.9,Very High,73.9,Very High,48.6,High,54.3,Very High
+P0000806,51.0,Very High,72.1,Very High,50.8,Very High,55.9,Very High
+P0000807,84.4,Very High,78.8,Very High,58.4,Very High,48.4,High
+P0000808,68.6,Very High,76.8,Very High,57.9,Very High,59.0,Very High
+P0000809,81.4,Very High,76.5,Very High,58.9,Very High,45.2,High
+P0000810,80.1,Very High,74.1,Very High,51.6,Very High,56.9,Very High
+P0000811,84.4,Very High,78.1,Very High,60.6,Very High,46.9,High
+P0000812,80.9,Very High,77.2,Very High,54.3,Very High,52.0,Very High
+P0000813,84.0,Very High,62.0,Very High,54.4,Very High,59.8,Very High
+P0000814,87.7,Very High,80.1,Very High,56.4,Very High,55.8,Very High
+P0000815,86.9,Very High,81.2,Very High,53.8,Very High,48.7,High
+P0000816,80.7,Very High,71.4,Very High,60.0,Very High,51.2,Very High
+P0000817,79.5,Very High,74.3,Very High,53.2,Very High,57.5,Very High
+P0000818,86.0,Very High,74.4,Very High,59.3,Very High,53.8,Very High
+P0000819,86.1,Very High,75.3,Very High,52.1,Very High,50.0,High
+P0000820,48.2,High,80.5,Very High,59.4,Very High,52.8,Very High
+P0000821,69.0,Very High,62.0,Very High,59.8,Very High,55.7,Very High
+P0000822,88.2,Very High,79.0,Very High,53.5,Very High,54.9,Very High
+P0000823,67.4,Very High,65.3,Very High,56.6,Very High,50.9,Very High
+P0000824,76.1,Very High,76.0,Very High,57.6,Very High,56.9,Very High
+P0000825,83.2,Very High,82.7,Very High,56.3,Very High,48.7,High
+P0000826,83.7,Very High,73.4,Very High,62.6,Very High,55.2,Very High
+P0000827,82.1,Very High,80.7,Very High,50.6,Very High,61.1,Very High
+P0000828,84.7,Very High,83.8,Very High,58.8,Very High,56.2,Very High
+P0000829,70.5,Very High,78.5,Very High,53.7,Very High,51.7,Very High
+P0000830,80.2,Very High,82.2,Very High,50.5,Very High,57.5,Very High
+P0000831,64.1,Very High,59.7,Very High,48.1,High,54.7,Very High
+P0000832,81.2,Very High,74.4,Very High,46.3,High,56.0,Very High
+P0000833,51.0,Very High,80.4,Very High,55.8,Very High,57.4,Very High
+P0000834,76.3,Very High,77.3,Very High,48.5,High,62.7,Very High
+P0000835,81.9,Very High,80.3,Very High,60.4,Very High,52.5,Very High
+P0000836,86.1,Very High,83.9,Very High,53.5,Very High,55.7,Very High
+P0000837,85.3,Very High,82.3,Very High,61.0,Very High,48.2,High
+P0000838,87.1,Very High,76.6,Very High,48.8,High,51.5,Very High
+P0000839,83.5,Very High,73.6,Very High,57.7,Very High,50.1,Very High
+P0000840,88.4,Very High,79.9,Very High,47.4,High,57.1,Very High
+P0000841,84.9,Very High,75.5,Very High,49.0,High,46.1,High
+P0000842,80.0,Very High,79.2,Very High,48.6,High,54.3,Very High
+P0000843,81.9,Very High,77.9,Very High,54.5,Very High,49.9,High
+P0000844,87.5,Very High,75.7,Very High,50.6,Very High,49.3,High
+P0000845,80.6,Very High,81.1,Very High,52.2,Very High,49.7,High
+P0000846,81.0,Very High,76.1,Very High,60.8,Very High,52.9,Very High
+P0000847,84.3,Very High,75.2,Very High,56.8,Very High,53.1,Very High
+P0000848,84.6,Very High,78.9,Very High,47.0,High,52.2,Very High
+P0000849,90.7,Very High,83.3,Very High,60.1,Very High,54.0,Very High
+P0000850,87.5,Very High,70.5,Very High,51.8,Very High,44.5,High
+P0000851,84.6,Very High,79.6,Very High,56.9,Very High,56.5,Very High
+P0000852,90.9,Very High,74.3,Very High,53.3,Very High,57.9,Very High
+P0000853,87.4,Very High,72.4,Very High,53.4,Very High,50.3,Very High
+P0000854,81.6,Very High,80.8,Very High,59.6,Very High,56.5,Very High
+P0000855,87.0,Very High,64.3,Very High,45.9,High,47.1,High
+P0000856,53.4,Very High,66.4,Very High,50.6,Very High,54.2,Very High
+P0000857,80.3,Very High,80.8,Very High,56.1,Very High,52.3,Very High
+P0000858,81.9,Very High,72.6,Very High,56.5,Very High,52.7,Very High
+P0000859,81.0,Very High,75.2,Very High,49.3,High,54.7,Very High
+P0000860,87.9,Very High,64.6,Very High,54.6,Very High,58.1,Very High
+P0000861,85.1,Very High,80.8,Very High,55.8,Very High,61.1,Very High
+P0000862,73.9,Very High,82.7,Very High,51.8,Very High,60.1,Very High
+P0000863,78.3,Very High,81.3,Very High,57.2,Very High,48.3,High
+P0000864,38.4,High,74.7,Very High,61.4,Very High,49.3,High
+P0000865,86.3,Very High,78.4,Very High,44.7,High,49.4,High
+P0000866,83.3,Very High,73.0,Very High,57.6,Very High,55.7,Very High
+P0000867,81.8,Very High,67.9,Very High,49.1,High,55.2,Very High
+P0000868,83.1,Very High,66.4,Very High,59.6,Very High,55.0,Very High
+P0000869,85.6,Very High,80.7,Very High,51.2,Very High,58.8,Very High
+P0000870,75.1,Very High,79.4,Very High,59.0,Very High,62.2,Very High
+P0000871,80.8,Very High,62.3,Very High,52.8,Very High,50.9,Very High
+P0000872,78.5,Very High,82.9,Very High,57.9,Very High,61.1,Very High
+P0000873,78.6,Very High,69.6,Very High,59.5,Very High,50.0,Very High
+P0000874,83.5,Very High,79.9,Very High,61.2,Very High,52.0,Very High
+P0000875,82.6,Very High,79.2,Very High,56.4,Very High,47.4,High
+P0000876,73.2,Very High,80.1,Very High,44.8,High,51.9,Very High
+P0000877,82.3,Very High,81.8,Very High,55.4,Very High,51.4,Very High
+P0000878,81.1,Very High,81.7,Very High,50.3,Very High,62.2,Very High
+P0000879,78.3,Very High,77.1,Very High,59.4,Very High,47.6,High
+P0000880,84.8,Very High,80.7,Very High,54.3,Very High,59.8,Very High
+P0000881,77.3,Very High,68.3,Very High,50.4,Very High,55.6,Very High
+P0000882,52.6,Very High,72.6,Very High,60.1,Very High,51.1,Very High
+P0000883,87.7,Very High,83.2,Very High,48.1,High,56.3,Very High
+P0000884,77.6,Very High,79.5,Very High,60.7,Very High,53.1,Very High
+P0000885,80.7,Very High,81.2,Very High,55.7,Very High,50.0,Very High
+P0000886,80.4,Very High,73.0,Very High,45.2,High,56.9,Very High
+P0000887,79.7,Very High,75.5,Very High,55.0,Very High,48.9,High
+P0000888,76.5,Very High,81.9,Very High,58.2,Very High,55.5,Very High
+P0000889,79.8,Very High,77.3,Very High,52.0,Very High,47.3,High
+P0000890,44.9,High,63.9,Very High,57.6,Very High,56.7,Very High
+P0000891,86.1,Very High,75.4,Very High,61.8,Very High,47.5,High
+P0000892,91.3,Very High,80.0,Very High,56.1,Very High,57.8,Very High
+P0000893,88.8,Very High,79.1,Very High,53.0,Very High,51.1,Very High
+P0000894,83.3,Very High,64.6,Very High,43.6,High,60.9,Very High
+P0000895,89.0,Very High,83.1,Very High,52.6,Very High,51.9,Very High
+P0000896,80.4,Very High,75.4,Very High,55.6,Very High,47.6,High
+P0000897,77.7,Very High,80.3,Very High,47.9,High,52.6,Very High
+P0000898,85.5,Very High,81.3,Very High,48.1,High,51.2,Very High
+P0000899,78.1,Very High,75.5,Very High,62.3,Very High,62.0,Very High
+P0000900,82.5,Very High,81.4,Very High,50.3,Very High,60.2,Very High
+P0000901,88.2,Very High,81.1,Very High,61.1,Very High,62.6,Very High
+P0000902,80.7,Very High,74.4,Very High,49.3,High,54.5,Very High
+P0000903,89.4,Very High,80.6,Very High,55.3,Very High,51.9,Very High
+P0000904,84.4,Very High,75.8,Very High,46.0,High,49.4,High
+P0000905,79.5,Very High,80.8,Very High,56.6,Very High,49.0,High
+P0000906,82.2,Very High,75.1,Very High,45.1,High,57.5,Very High
+P0000907,86.4,Very High,80.4,Very High,53.7,Very High,64.2,Very High
+P0000908,79.1,Very High,82.1,Very High,55.8,Very High,55.6,Very High
+P0000909,50.5,Very High,78.3,Very High,48.6,High,50.0,High
+P0000910,70.3,Very High,79.0,Very High,63.1,Very High,52.9,Very High
+P0000911,85.4,Very High,63.3,Very High,59.6,Very High,55.0,Very High
+P0000912,77.4,Very High,62.2,Very High,48.3,High,52.2,Very High
+P0000913,82.3,Very High,58.8,Very High,55.4,Very High,49.9,High
+P0000914,89.0,Very High,75.0,Very High,61.6,Very High,49.7,High
+P0000915,82.7,Very High,62.5,Very High,56.8,Very High,57.9,Very High
+P0000916,81.7,Very High,73.5,Very High,44.5,High,53.8,Very High
+P0000917,81.0,Very High,73.6,Very High,44.7,High,56.4,Very High
+P0000918,82.3,Very High,59.8,Very High,47.4,High,55.9,Very High
+P0000919,66.6,Very High,74.9,Very High,45.9,High,49.8,High
+P0000920,79.6,Very High,78.4,Very High,48.4,High,49.1,High
+P0000921,86.8,Very High,82.4,Very High,45.4,High,57.1,Very High
+P0000922,89.1,Very High,80.8,Very High,53.0,Very High,50.3,Very High
+P0000923,84.5,Very High,69.5,Very High,59.5,Very High,60.0,Very High
+P0000924,87.5,Very High,84.1,Very High,59.5,Very High,56.9,Very High
+P0000925,78.3,Very High,72.5,Very High,62.4,Very High,49.5,High
+P0000926,80.9,Very High,74.7,Very High,51.6,Very High,57.4,Very High
+P0000927,83.2,Very High,76.7,Very High,52.6,Very High,49.1,High
+P0000928,86.4,Very High,62.4,Very High,49.2,High,51.0,Very High
+P0000929,79.1,Very High,81.5,Very High,51.2,Very High,56.4,Very High
+P0000930,82.3,Very High,66.8,Very High,57.0,Very High,49.3,High
+P0000931,76.9,Very High,77.6,Very High,59.9,Very High,46.2,High
+P0000932,89.0,Very High,77.1,Very High,56.3,Very High,47.3,High
+P0000933,85.6,Very High,73.3,Very High,59.8,Very High,50.0,High
+P0000934,54.1,Very High,72.6,Very High,55.9,Very High,51.7,Very High
+P0000935,85.5,Very High,68.0,Very High,53.3,Very High,48.3,High
+P0000936,89.2,Very High,62.4,Very High,48.0,High,59.2,Very High
+P0000937,79.9,Very High,80.8,Very High,49.6,High,54.9,Very High
+P0000938,82.3,Very High,67.4,Very High,62.5,Very High,53.6,Very High
+P0000939,83.0,Very High,72.8,Very High,55.8,Very High,49.3,High
+P0000940,88.8,Very High,74.2,Very High,51.0,Very High,58.5,Very High
+P0000941,80.0,Very High,73.5,Very High,63.0,Very High,57.6,Very High
+P0000942,65.0,Very High,68.8,Very High,52.7,Very High,49.0,High
+P0000943,79.6,Very High,73.7,Very High,62.2,Very High,49.4,High
+P0000944,88.0,Very High,69.6,Very High,57.6,Very High,59.4,Very High
+P0000945,84.9,Very High,71.1,Very High,46.9,High,57.2,Very High
+P0000946,85.4,Very High,79.5,Very High,59.5,Very High,49.0,High
+P0000947,83.7,Very High,78.1,Very High,58.4,Very High,50.3,Very High
+P0000948,43.6,High,62.8,Very High,47.3,High,59.3,Very High
+P0000949,84.8,Very High,73.2,Very High,46.5,High,52.9,Very High
+P0000950,74.8,Very High,77.6,Very High,55.2,Very High,58.0,Very High
+P0000951,65.9,Very High,79.2,Very High,49.6,High,55.6,Very High
+P0000952,75.8,Very High,70.3,Very High,59.4,Very High,54.3,Very High
+P0000953,83.0,Very High,60.1,Very High,50.3,Very High,54.7,Very High
+P0000954,74.1,Very High,79.7,Very High,54.4,Very High,62.8,Very High
+P0000955,83.6,Very High,80.1,Very High,59.9,Very High,56.8,Very High
+P0000956,65.1,Very High,70.7,Very High,48.5,High,48.0,High
+P0000957,80.7,Very High,81.5,Very High,60.4,Very High,55.9,Very High
+P0000958,81.7,Very High,80.3,Very High,60.0,Very High,56.6,Very High
+P0000959,77.3,Very High,71.2,Very High,53.9,Very High,49.1,High
+P0000960,78.4,Very High,70.5,Very High,45.4,High,47.6,High
+P0000961,75.6,Very High,78.0,Very High,53.1,Very High,53.3,Very High
+P0000962,83.0,Very High,77.2,Very High,62.8,Very High,55.6,Very High
+P0000963,84.7,Very High,79.5,Very High,59.3,Very High,56.1,Very High
+P0000964,88.5,Very High,83.3,Very High,56.8,Very High,57.8,Very High
+P0000965,85.2,Very High,78.9,Very High,62.4,Very High,51.6,Very High
+P0000966,51.6,Very High,82.0,Very High,61.8,Very High,56.9,Very High
+P0000967,87.1,Very High,78.5,Very High,46.3,High,53.6,Very High
+P0000968,85.1,Very High,78.8,Very High,57.3,Very High,54.1,Very High
+P0000969,84.5,Very High,68.4,Very High,51.4,Very High,46.7,High
+P0000970,81.3,Very High,81.4,Very High,54.9,Very High,60.4,Very High
+P0000971,84.2,Very High,67.9,Very High,59.1,Very High,57.1,Very High
+P0000972,86.2,Very High,81.6,Very High,62.8,Very High,52.5,Very High
+P0000973,74.7,Very High,71.9,Very High,58.5,Very High,58.0,Very High
+P0000974,82.5,Very High,72.4,Very High,51.7,Very High,56.4,Very High
+P0000975,85.9,Very High,80.9,Very High,48.3,High,57.5,Very High
+P0000976,80.8,Very High,81.0,Very High,56.4,Very High,58.3,Very High
+P0000977,86.6,Very High,68.0,Very High,43.3,High,48.9,High
+P0000978,82.3,Very High,71.7,Very High,61.6,Very High,49.8,High
+P0000979,77.0,Very High,73.5,Very High,57.5,Very High,52.6,Very High
+P0000980,83.1,Very High,72.6,Very High,60.0,Very High,54.8,Very High
+P0000981,88.9,Very High,76.1,Very High,55.0,Very High,50.0,Very High
+P0000982,79.3,Very High,84.0,Very High,57.5,Very High,50.1,Very High
+P0000983,85.2,Very High,77.7,Very High,54.7,Very High,50.4,Very High
+P0000984,85.1,Very High,71.3,Very High,56.9,Very High,48.6,High
+P0000985,85.3,Very High,72.1,Very High,56.0,Very High,58.1,Very High
+P0000986,84.5,Very High,78.4,Very High,54.8,Very High,54.2,Very High
+P0000987,62.5,Very High,82.2,Very High,49.7,High,63.3,Very High
+P0000988,75.5,Very High,69.5,Very High,47.2,High,49.3,High
+P0000989,73.4,Very High,80.3,Very High,60.4,Very High,52.0,Very High
+P0000990,82.8,Very High,62.9,Very High,54.6,Very High,47.5,High
+P0000991,83.7,Very High,64.0,Very High,44.6,High,53.2,Very High
+P0000992,84.3,Very High,70.1,Very High,47.1,High,51.2,Very High
+P0000993,64.3,Very High,77.1,Very High,48.8,High,51.9,Very High
+P0000994,82.8,Very High,58.8,Very High,59.3,Very High,59.4,Very High
+P0000995,85.6,Very High,83.2,Very High,60.0,Very High,53.6,Very High
+P0000996,89.9,Very High,75.8,Very High,58.8,Very High,54.6,Very High
+P0000997,82.8,Very High,74.1,Very High,49.7,High,67.3,Very High
+P0000998,88.6,Very High,71.0,Very High,57.9,Very High,60.7,Very High
+P0000999,81.8,Very High,75.7,Very High,56.6,Very High,49.4,High
+P0001000,82.8,Very High,73.3,Very High,58.6,Very High,50.4,Very High

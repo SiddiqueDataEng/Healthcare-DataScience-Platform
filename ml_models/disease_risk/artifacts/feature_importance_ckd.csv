@@ -1,0 +1,16 @@
+feature,shap_importance
+lab_total_cholesterol,0.01277445
+lab_wbc,0.00601307
+lab_troponin_i,0.004442505
+lab_potassium,0.0038372842
+lab_sodium,0.0036438126
+lab_hba1c,0.002944515
+age,0.0023967668
+lab_hemoglobin,0.0017696103
+lab_glucose,0.0011299818
+n_admissions,0.00083330006
+lab_hdl_cholesterol,0.0007810957
+lab_ldl_cholesterol,0.0005899909
+lab_bnp,0.0005188873
+lab_tsh,0.0
+abnormal_lab_count,0.0

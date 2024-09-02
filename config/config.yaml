@@ -1,0 +1,158 @@
+# Healthcare Data Platform Configuration
+
+project:
+  name: "Healthcare Data Platform"
+  version: "1.0.0"
+  environment: "development"   # development | staging | production
+
+# ─────────────────────────────────────────────
+# Database Connections
+# ─────────────────────────────────────────────
+database:
+  postgres:
+    host: "${POSTGRES_HOST:-localhost}"
+    port: 5432
+    database: "healthcare_dw"
+    username: "${POSTGRES_USER}"
+    password: "${POSTGRES_PASSWORD}"
+    schema: "public"
+    pool_size: 20
+    max_overflow: 40
+
+  snowflake:
+    account: "${SNOWFLAKE_ACCOUNT}"
+    user: "${SNOWFLAKE_USER}"
+    password: "${SNOWFLAKE_PASSWORD}"
+    warehouse: "HEALTHCARE_WH"
+    database: "HEALTHCARE_DB"
+    schema: "RAW"
+    role: "SYSADMIN"
+
+# ─────────────────────────────────────────────
+# Data Lake / Storage
+# ─────────────────────────────────────────────
+storage:
+  type: "local"                # local | s3 | azure_blob | gcs
+  local_path: "./data"
+  s3:
+    bucket: "${S3_BUCKET}"
+    region: "us-east-1"
+    raw_prefix: "raw/"
+    processed_prefix: "processed/"
+    curated_prefix: "curated/"
+
+# ─────────────────────────────────────────────
+# Kafka / Streaming
+# ─────────────────────────────────────────────
+kafka:
+  bootstrap_servers: "${KAFKA_BOOTSTRAP_SERVERS:-localhost:9092}"
+  topics:
+    icu_vitals: "healthcare.icu.vitals"
+    wearable_data: "healthcare.wearable.events"
+    appointments: "healthcare.appointments.events"
+    admissions: "healthcare.admissions.events"
+    emergency: "healthcare.emergency.visits"
+  consumer_group: "healthcare-analytics"
+  auto_offset_reset: "earliest"
+
+# ─────────────────────────────────────────────
+# Spark
+# ─────────────────────────────────────────────
+spark:
+  app_name: "HealthcarePlatform"
+  master: "local[*]"          # local[*] | yarn | spark://host:7077
+  executor_memory: "4g"
+  driver_memory: "4g"
+  executor_cores: 4
+  shuffle_partitions: 200
+
+# ─────────────────────────────────────────────
+# Data Generation
+# ─────────────────────────────────────────────
+data_generation:
+  scale: "small"              # small | medium | large | full
+  scales:
+    small:
+      patients: 1000
+      appointments: 10000
+      admissions: 2000
+      diagnoses: 15000
+      lab_results: 50000
+      prescriptions: 20000
+      clinical_notes: 10000
+      icu_vitals: 100000
+      wearable_data: 500000
+    medium:
+      patients: 100000
+      appointments: 1000000
+      admissions: 200000
+      diagnoses: 1500000
+      lab_results: 5000000
+      prescriptions: 2000000
+      clinical_notes: 1000000
+      icu_vitals: 10000000
+      wearable_data: 50000000
+    full:
+      patients: 1000000
+      appointments: 10000000
+      admissions: 2000000
+      diagnoses: 15000000
+      lab_results: 50000000
+      prescriptions: 20000000
+      clinical_notes: 10000000
+      icu_vitals: 2000000000
+      wearable_data: 500000000
+  seed: 42
+  output_format: "parquet"    # csv | parquet | json
+  output_path: "./data/raw"
+  batch_size: 100000
+
+# ─────────────────────────────────────────────
+# Data Quality
+# ─────────────────────────────────────────────
+data_quality:
+  enabled: true
+  fail_on_error: false
+  checkpoint_store: "./data_quality/checkpoints"
+  expectations_store: "./data_quality/expectations"
+  results_store: "./data_quality/results"
+
+# ─────────────────────────────────────────────
+# ML Models
+# ─────────────────────────────────────────────
+ml:
+  model_registry: "./ml_models/registry"
+  test_size: 0.2
+  random_state: 42
+  mlflow:
+    tracking_uri: "${MLFLOW_TRACKING_URI:-./mlruns}"
+    experiment_name: "healthcare_platform"
+
+# ─────────────────────────────────────────────
+# Logging
+# ─────────────────────────────────────────────
+logging:
+  level: "INFO"
+  format: "{time:YYYY-MM-DD HH:mm:ss} | {level} | {name} | {message}"
+  file: "./logs/healthcare_platform.log"
+  rotation: "100 MB"
+  retention: "30 days"
+
+# ─────────────────────────────────────────────
+# Compliance / Security
+# ─────────────────────────────────────────────
+compliance:
+  hipaa_enabled: true
+  gdpr_enabled: true
+  encryption_key: "${ENCRYPTION_KEY}"
+  phi_fields:
+    - patient_id
+    - first_name
+    - last_name
+    - dob
+    - ssn
+    - phone
+    - email
+    - address
+  audit_log_table: "audit_logs"
+  data_retention_days: 2555    # 7 years (HIPAA)

@@ -1,0 +1,13 @@
+{
+  "run_id": "20260610_172028",
+  "auc_roc": 0.5334,
+  "auc_pr": 0.1535,
+  "brier_score": 0.1222,
+  "cv_auc_mean": 0.5538,
+  "cv_auc_std": 0.054,
+  "train_size": 1512,
+  "test_size": 378,
+  "n_features": 23,
+  "positive_rate": 0.1418,
+  "timestamp": "2026-06-10T17:20:28.987417"
+}

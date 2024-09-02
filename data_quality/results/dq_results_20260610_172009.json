@@ -1,0 +1,572 @@
+{
+  "patients": {
+    "table": "patients",
+    "total_checks": 12,
+    "passed": 12,
+    "failed": 0,
+    "warned": 0,
+    "quality_score": 100.0,
+    "status": "PASS",
+    "checks": [
+      {
+        "check_name": "unique__patient_id",
+        "table": "patients",
+        "column": "patient_id",
+        "status": "PASS",
+        "value": 1000,
+        "threshold": null,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.065369"
+      },
+      {
+        "check_name": "not_null__patient_id",
+        "table": "patients",
+        "column": "patient_id",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": 0.0,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.075972"
+      },
+      {
+        "check_name": "not_null__first_name",
+        "table": "patients",
+        "column": "first_name",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": 0.5,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.078943"
+      },
+      {
+        "check_name": "not_null__last_name",
+        "table": "patients",
+        "column": "last_name",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": 0.5,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.079288"
+      },
+      {
+        "check_name": "not_null__dob",
+        "table": "patients",
+        "column": "dob",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": 0.0,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.079523"
+      },
+      {
+        "check_name": "not_null__gender",
+        "table": "patients",
+        "column": "gender",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": 0.0,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.079741"
+      },
+      {
+        "check_name": "value_set__gender",
+        "table": "patients",
+        "column": "gender",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": null,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.079987"
+      },
+      {
+        "check_name": "value_set__blood_group",
+        "table": "patients",
+        "column": "blood_group",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": null,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.095584"
+      },
+      {
+        "check_name": "date_format__dob",
+        "table": "patients",
+        "column": "dob",
+        "status": "PASS",
+        "value": 100.0,
+        "threshold": null,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.096544"
+      },
+      {
+        "check_name": "date_format__registration_date",
+        "table": "patients",
+        "column": "registration_date",
+        "status": "PASS",
+        "value": 100.0,
+        "threshold": null,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.098515"
+      },
+      {
+        "check_name": "range__age",
+        "table": "patients",
+        "column": "age",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": null,
+        "details": {
+          "min": 0.2135523613963039,
+          "max": 105.61806981519507,
+          "mean": 51.48,
+          "violations": 0
+        },
+        "timestamp": "2026-06-10T17:20:09.100230"
+      },
+      {
+        "check_name": "stat_mean__age",
+        "table": "patients",
+        "column": "age",
+        "status": "PASS",
+        "value": 51.484,
+        "threshold": null,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.106261"
+      }
+    ]
+  },
+  "admissions": {
+    "table": "admissions",
+    "total_checks": 10,
+    "passed": 10,
+    "failed": 0,
+    "warned": 0,
+    "quality_score": 100.0,
+    "status": "PASS",
+    "checks": [
+      {
+        "check_name": "unique__admission_id",
+        "table": "admissions",
+        "column": "admission_id",
+        "status": "PASS",
+        "value": 2000,
+        "threshold": null,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.150230"
+      },
+      {
+        "check_name": "not_null__admission_id",
+        "table": "admissions",
+        "column": "admission_id",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": 0.0,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.151268"
+      },
+      {
+        "check_name": "not_null__patient_id",
+        "table": "admissions",
+        "column": "patient_id",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": 0.0,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.151631"
+      },
+      {
+        "check_name": "not_null__hospital_id",
+        "table": "admissions",
+        "column": "hospital_id",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": 0.0,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.151848"
+      },
+      {
+        "check_name": "not_null__admit_date",
+        "table": "admissions",
+        "column": "admit_date",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": 0.0,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.152844"
+      },
+      {
+        "check_name": "date_format__admit_date",
+        "table": "admissions",
+        "column": "admit_date",
+        "status": "PASS",
+        "value": 100.0,
+        "threshold": null,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.153663"
+      },
+      {
+        "check_name": "range__length_of_stay",
+        "table": "admissions",
+        "column": "length_of_stay",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": null,
+        "details": {
+          "min": 1.0,
+          "max": 90.0,
+          "mean": 5.62,
+          "violations": 0
+        },
+        "timestamp": "2026-06-10T17:20:09.160911"
+      },
+      {
+        "check_name": "value_set__admission_type",
+        "table": "admissions",
+        "column": "admission_type",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": null,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.165722"
+      },
+      {
+        "check_name": "stat_mean__length_of_stay",
+        "table": "admissions",
+        "column": "length_of_stay",
+        "status": "PASS",
+        "value": 5.619,
+        "threshold": null,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.167602"
+      },
+      {
+        "check_name": "stat_mean__readmission_within_30d",
+        "table": "admissions",
+        "column": "readmission_within_30d",
+        "status": "PASS",
+        "value": 0.143,
+        "threshold": null,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.168097"
+      }
+    ]
+  },
+  "lab_results": {
+    "table": "lab_results",
+    "total_checks": 8,
+    "passed": 8,
+    "failed": 0,
+    "warned": 0,
+    "quality_score": 100.0,
+    "status": "PASS",
+    "checks": [
+      {
+        "check_name": "unique__result_id",
+        "table": "lab_results",
+        "column": "result_id",
+        "status": "PASS",
+        "value": 50000,
+        "threshold": null,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.214781"
+      },
+      {
+        "check_name": "not_null__result_id",
+        "table": "lab_results",
+        "column": "result_id",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": 0.0,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.222966"
+      },
+      {
+        "check_name": "not_null__patient_id",
+        "table": "lab_results",
+        "column": "patient_id",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": 0.0,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.223416"
+      },
+      {
+        "check_name": "not_null__test_name",
+        "table": "lab_results",
+        "column": "test_name",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": 0.0,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.223672"
+      },
+      {
+        "check_name": "not_null__result_value",
+        "table": "lab_results",
+        "column": "result_value",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": 2.0,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.223924"
+      },
+      {
+        "check_name": "date_format__collection_datetime",
+        "table": "lab_results",
+        "column": "collection_datetime",
+        "status": "PASS",
+        "value": 100.0,
+        "threshold": null,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.224170"
+      },
+      {
+        "check_name": "value_set__abnormal_flag",
+        "table": "lab_results",
+        "column": "abnormal_flag",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": null,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.266136"
+      },
+      {
+        "check_name": "value_set__result_status",
+        "table": "lab_results",
+        "column": "result_status",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": null,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.269600"
+      }
+    ]
+  },
+  "diagnoses": {
+    "table": "diagnoses",
+    "total_checks": 9,
+    "passed": 9,
+    "failed": 0,
+    "warned": 0,
+    "quality_score": 100.0,
+    "status": "PASS",
+    "checks": [
+      {
+        "check_name": "unique__diagnosis_id",
+        "table": "diagnoses",
+        "column": "diagnosis_id",
+        "status": "PASS",
+        "value": 15000,
+        "threshold": null,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.297080"
+      },
+      {
+        "check_name": "not_null__diagnosis_id",
+        "table": "diagnoses",
+        "column": "diagnosis_id",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": 0.0,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.299127"
+      },
+      {
+        "check_name": "not_null__patient_id",
+        "table": "diagnoses",
+        "column": "patient_id",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": 0.0,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.299468"
+      },
+      {
+        "check_name": "not_null__icd10_code",
+        "table": "diagnoses",
+        "column": "icd10_code",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": 0.0,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.299683"
+      },
+      {
+        "check_name": "not_null__disease_name",
+        "table": "diagnoses",
+        "column": "disease_name",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": 0.0,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.299891"
+      },
+      {
+        "check_name": "date_format__diagnosis_date",
+        "table": "diagnoses",
+        "column": "diagnosis_date",
+        "status": "PASS",
+        "value": 100.0,
+        "threshold": null,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.300106"
+      },
+      {
+        "check_name": "value_set__severity",
+        "table": "diagnoses",
+        "column": "severity",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": null,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.309487"
+      },
+      {
+        "check_name": "value_set__diagnosis_type",
+        "table": "diagnoses",
+        "column": "diagnosis_type",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": null,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.310978"
+      },
+      {
+        "check_name": "pattern_icd10_format__icd10_code",
+        "table": "diagnoses",
+        "column": "icd10_code",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": null,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.312725"
+      }
+    ]
+  },
+  "icu_vitals": {
+    "table": "icu_vitals",
+    "total_checks": 9,
+    "passed": 9,
+    "failed": 0,
+    "warned": 0,
+    "quality_score": 100.0,
+    "status": "PASS",
+    "checks": [
+      {
+        "check_name": "not_null__patient_id",
+        "table": "icu_vitals",
+        "column": "patient_id",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": 0.0,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.370213"
+      },
+      {
+        "check_name": "not_null__timestamp",
+        "table": "icu_vitals",
+        "column": "timestamp",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": 0.0,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.370914"
+      },
+      {
+        "check_name": "range__heart_rate",
+        "table": "icu_vitals",
+        "column": "heart_rate",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": null,
+        "details": {
+          "min": 30.0,
+          "max": 162.0,
+          "mean": 77.52,
+          "violations": 0
+        },
+        "timestamp": "2026-06-10T17:20:09.371289"
+      },
+      {
+        "check_name": "range__blood_pressure_sys",
+        "table": "icu_vitals",
+        "column": "blood_pressure_sys",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": null,
+        "details": {
+          "min": 60.0,
+          "max": 207.0,
+          "mean": 117.42,
+          "violations": 0
+        },
+        "timestamp": "2026-06-10T17:20:09.372948"
+      },
+      {
+        "check_name": "range__spo2",
+        "table": "icu_vitals",
+        "column": "spo2",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": null,
+        "details": {
+          "min": 88.8,
+          "max": 100.0,
+          "mean": 97.14,
+          "violations": 0
+        },
+        "timestamp": "2026-06-10T17:20:09.374685"
+      },
+      {
+        "check_name": "range__temperature",
+        "table": "icu_vitals",
+        "column": "temperature",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": null,
+        "details": {
+          "min": 34.31,
+          "max": 39.52,
+          "mean": 37.0,
+          "violations": 0
+        },
+        "timestamp": "2026-06-10T17:20:09.376804"
+      },
+      {
+        "check_name": "range__respiration_rate",
+        "table": "icu_vitals",
+        "column": "respiration_rate",
+        "status": "PASS",
+        "value": 0.0,
+        "threshold": null,
+        "details": {
+          "min": 8.0,
+          "max": 33.0,
+          "mean": 15.56,
+          "violations": 0
+        },
+        "timestamp": "2026-06-10T17:20:09.379249"
+      },
+      {
+        "check_name": "stat_mean__heart_rate",
+        "table": "icu_vitals",
+        "column": "heart_rate",
+        "status": "PASS",
+        "value": 77.524,
+        "threshold": null,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.381538"
+      },
+      {
+        "check_name": "stat_mean__spo2",
+        "table": "icu_vitals",
+        "column": "spo2",
+        "status": "PASS",
+        "value": 97.142,
+        "threshold": null,
+        "details": {},
+        "timestamp": "2026-06-10T17:20:09.382252"
+      }
+    ]
+  }
+}
