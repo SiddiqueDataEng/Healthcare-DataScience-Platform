@@ -9,7 +9,6 @@ venv/
 .pytest_cache/
 .hypothesis/
 .vscode/
-.kiro/
 
 # Data files - too large for git
 data/raw/
@@ -25,21 +24,8 @@ checkpoints/
 *.db
 *.log
 *.zip
-GITHUBLIST.csv
-master-config.bat
-git-backdate.bat
-ROUGH.TXT
 node_modules/
 dist/
 build/
 
-# Local scripts that contain tokens or are run-once utilities -- keep off repo
-check_github.ps1
-github-master.bat
-github-fork-master.bat
-make_commits.ps1
-simulate_upload.py
-verify_github.py
-aws-medyrax-backdate.bat
-aws-medyrax-upload.bat
-healthcare-backdate.bat
+
