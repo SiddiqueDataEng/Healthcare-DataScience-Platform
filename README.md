@@ -88,8 +88,18 @@ healthcare_DataScience_Project/
 
 ## Quick Start
 
+For the deployed Streamlit dashboard:
+
 ```bash
 pip install -r requirements.txt
+streamlit run dashboards/streamlit_app.py
+```
+
+For the complete local ETL, ML, NLP, and data-generation toolchain, use
+`requirements-platform.txt` instead:
+
+```bash
+pip install -r requirements-platform.txt
 python data_generation/generate_all.py --scale small
 python etl/batch/load_to_postgres.py
 python data_quality/run_checks.py
