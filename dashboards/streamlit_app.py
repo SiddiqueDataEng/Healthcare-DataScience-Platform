@@ -165,6 +165,43 @@ def sql_reference() -> str:
     return "-- SQL reference unavailable"
 
 
+def executive_findings(t: dict[str, pd.DataFrame]) -> list[dict[str, str]]:
+    """Translate scoped metrics into concise operational actions."""
+    admissions, claims, emergency, beds, feedback = (t[name] for name in ["admissions", "insurance_claims", "emergency_visits", "bed_utilization", "patient_feedback"])
+    findings = []
+    readmission = admissions["readmission_within_30d"].mean() * 100
+    if readmission > 15.6:
+        findings.append({"priority": "High", "area": "Clinical quality", "issue": f"Readmission is {readmission:.1f}%, above the 15.6% benchmark.", "solution": "Launch a 48-hour post-discharge call list for high-risk DRGs and review discharge barriers by ward."})
+    approval = claims["claim_status"].isin(["Approved", "Paid"]).mean() * 100
+    if approval < 88:
+        findings.append({"priority": "High", "area": "Revenue cycle", "issue": f"Claim approval is {approval:.1f}%, below the 88% target.", "solution": "Prioritize denial reasons by payer, then route coding and authorization exceptions to a daily work queue."})
+    door_to_doc = emergency["door_to_doc_minutes"].mean()
+    if door_to_doc > 30:
+        findings.append({"priority": "High", "area": "Emergency flow", "issue": f"Average door-to-doctor time is {door_to_doc:.0f} minutes.", "solution": "Match triage staffing to the arrival-by-hour pattern and create a fast-track lane for low-acuity visits."})
+    occupancy = beds["occupancy_status"].eq("Occupied").mean() * 100
+    if occupancy < 80 or occupancy > 90:
+        findings.append({"priority": "Watch", "area": "Capacity", "issue": f"Bed occupancy is {occupancy:.1f}%, outside the 80-90% operating band.", "solution": "Review housekeeping and discharge-ready beds every two hours; escalate units with constrained capacity."})
+    rating = feedback["overall_rating"].mean()
+    if rating < 8:
+        findings.append({"priority": "Watch", "area": "Patient experience", "issue": f"Patient rating is {rating:.1f}/10.", "solution": "Use the feedback themes to target wait-time communication and discharge education on the lowest-rated sites."})
+    if not findings:
+        findings.append({"priority": "Stable", "area": "Network health", "issue": "Core scoped metrics are within the configured operating thresholds.", "solution": "Maintain current controls and use the AI & Insights workspace to investigate emerging signals."})
+    return findings
+
+
+def report_download(t: dict[str, pd.DataFrame], source: str, date_range: tuple[Any, Any]) -> None:
+    findings = pd.DataFrame(executive_findings(t))
+    report = "\n".join([
+        "NORTHSTAR HEALTH | EXECUTIVE OPERATING BRIEF",
+        f"Reporting period: {date_range[0]} to {date_range[1]}",
+        f"Source: {source.title()} data",
+        "",
+        "PRIORITIES",
+        *[f"[{row.priority}] {row.area}: {row.issue}\nAction: {row.solution}" for row in findings.itertuples()],
+    ])
+    st.download_button("Download executive brief", data=report.encode("utf-8"), file_name="northstar_executive_brief.txt", mime="text/plain", use_container_width=True)
+
+
 def metric_card(label: str, value: str, note: str, tone: str = "good") -> None:
     st.markdown(f'<div class="kpi"><div class="kpi-label">{label}</div><div class="kpi-value {tone}">{value}</div><div class="kpi-note">{note}</div></div>', unsafe_allow_html=True)
 
@@ -234,6 +271,10 @@ def overview(t: dict[str, pd.DataFrame], source: str = "demo", date_range: tuple
     with right:
         dist = emergency["disposition"].value_counts().rename_axis("disposition").reset_index(name="visits")
         st.plotly_chart(chart_layout(px.pie(dist, values="visits", names="disposition", hole=.62, title="Emergency disposition", color_discrete_sequence=[PALETTE["teal"], PALETTE["blue"], PALETTE["gold"], PALETTE["coral"], "#9ab5a9"])), use_container_width=True)
+    st.markdown("### The operating story")
+    findings = pd.DataFrame(executive_findings(t))
+    st.dataframe(findings.rename(columns={"priority": "Priority", "area": "Area", "issue": "What is happening", "solution": "Recommended response"}), use_container_width=True, hide_index=True)
+    report_download(t, source, date_range)
     st.markdown("### Network signals")
     hospital_view = admissions.groupby("hospital_id").agg(admissions=("admission_id", "count"), readmission_rate=("readmission_within_30d", "mean"), avg_los=("length_of_stay", "mean")).reset_index()
     hospital_view["readmission_rate"] *= 100
@@ -364,6 +405,26 @@ def ai_insights(t: dict[str, pd.DataFrame], source: str) -> None:
         st.caption("Source: analytics/01_patient_readmission_analysis.sql. Query is shown as a transparent reference; the dashboard chart above is computed from the active dataframe scope.")
 
 
+def reports_actions(t: dict[str, pd.DataFrame], source: str, date_range: tuple[Any, Any]) -> None:
+    st.markdown('<div class="eyebrow">Executive reporting</div><h1>From signal to accountable action.</h1><p class="subhead">A review-ready brief of problems, likely causes, interventions, and measures of success.</p>', unsafe_allow_html=True)
+    findings = pd.DataFrame(executive_findings(t))
+    high_count = int(findings["priority"].eq("High").sum())
+    cards = st.columns(4)
+    for col, item in zip(cards, [("Open priorities", str(len(findings)), "Scoped issues and controls", "risk" if high_count else "good"), ("High priority", str(high_count), "Requires owner assignment", "risk" if high_count else "good"), ("Reporting period", f"{date_range[0]}", f"Through {date_range[1]}", "neutral"), ("Data readiness", source.title(), "Dashboard source", "good")]):
+        with col: metric_card(*item)
+    st.markdown("### Priority register")
+    st.dataframe(findings.rename(columns={"priority": "Priority", "area": "Area", "issue": "Problem / signal", "solution": "Suggested solution"}), use_container_width=True, hide_index=True)
+    st.markdown("### Suggested review cadence")
+    cadence = pd.DataFrame([
+        ["Daily huddle", "Emergency flow, occupancy, high-risk returns", "COO / Nursing operations"],
+        ["Weekly quality review", "Readmission, mortality proxy, NLP risk drivers", "CMO / Quality"],
+        ["Weekly revenue review", "Denials, approval rate, bad debt exposure", "CFO / Revenue cycle"],
+        ["Monthly board brief", "Network trend, financial realization, patient voice", "Executive team"],
+    ], columns=["Cadence", "Review", "Accountable group"])
+    st.dataframe(cadence, use_container_width=True, hide_index=True)
+    report_download(t, source, date_range)
+
+
 def explorer(t: dict[str, pd.DataFrame], source: str) -> None:
     st.markdown('<div class="eyebrow">Data explorer</div><h1>Inspect the signal behind the score.</h1><p class="subhead">Tables are sampled for responsiveness. Identifiers are shown only to support local development and should be masked in production.</p>', unsafe_allow_html=True); st.info(f"Data source: {source}. Showing up to {MAX_ROWS_PER_TABLE:,} rows per table for this session.")
     table = st.selectbox("Dataset", list(t.keys())); frame = t[table]; search = st.text_input("Search visible values", placeholder="hospital, ward, status...")
@@ -378,7 +439,7 @@ def explorer(t: dict[str, pd.DataFrame], source: str) -> None:
 def main() -> None:
     inject_styles(); tables, source = load_all_tables(); start, end = prepare_dates(tables)
     with st.sidebar:
-        st.markdown("## NORTHSTAR HEALTH"); st.caption("Enterprise clinical intelligence / v2.0"); page = st.radio("Workspace", ["Command center", "Clinical quality", "Revenue cycle", "Operations", "Patient experience", "Population health", "AI & insights", "Data explorer"], label_visibility="collapsed"); st.markdown("---"); st.markdown("### Scope")
+        st.markdown("## NORTHSTAR HEALTH"); st.caption("Enterprise clinical intelligence / v2.0"); page = st.radio("Workspace", ["Command center", "Clinical quality", "Revenue cycle", "Operations", "Patient experience", "Population health", "AI & insights", "Reports & actions", "Data explorer"], label_visibility="collapsed"); st.markdown("---"); st.markdown("### Scope")
         date_range = st.date_input("Date range", value=(start.date(), end.date()), min_value=start.date(), max_value=end.date()); hospitals = sorted({str(value) for frame in tables.values() if "hospital_id" in frame for value in frame["hospital_id"].dropna().unique()}); hospital = st.selectbox("Hospital", ["All hospitals"] + hospitals); st.markdown("---"); st.caption("Refresh after new files land in data/raw.")
         st.caption(f"{source.title()} source · {sum(len(frame) for frame in tables.values()):,} loaded rows")
         if st.button("Refresh data", use_container_width=True): st.cache_data.clear(); st.rerun()
@@ -391,6 +452,7 @@ def main() -> None:
     elif page == "Patient experience": experience(filtered)
     elif page == "Population health": population_health(filtered, source)
     elif page == "AI & insights": ai_insights(filtered, source)
+    elif page == "Reports & actions": reports_actions(filtered, source, date_range)
     else: explorer(filtered, source)
 
 
