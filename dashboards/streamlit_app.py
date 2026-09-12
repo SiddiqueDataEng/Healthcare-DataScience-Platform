@@ -34,11 +34,12 @@ def inject_styles() -> None:
     @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
     :root { --ink:#15231f; --teal:#0f766e; --mint:#dff3ec; --paper:#f5f7f3; --line:#dce5df; }
     html, body, [class*="css"] { font-family: 'DM Sans', sans-serif; color: var(--ink); }
-    .stApp { background: var(--paper); }
+    .stApp { background: radial-gradient(circle at 92% 0%, #e7f3ed 0, var(--paper) 34rem); }
     [data-testid="stSidebar"] { background: #17322d; }
     [data-testid="stSidebar"] * { color: #eef8f2 !important; }
     h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; letter-spacing: 0; }
     h1 { font-size: 2.5rem !important; margin-bottom: .2rem; }
+    h2 { font-size: 1.35rem !important; margin-top: 1.25rem; }
     .eyebrow { color: var(--teal); font-size: .75rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
     .subhead { color: #64736e; margin: 0 0 1.5rem; }
     .kpi { background:#fff; border:1px solid var(--line); border-radius:8px; padding:1rem 1.1rem; min-height:122px; box-shadow:0 5px 18px rgba(21,35,31,.04); }
@@ -47,6 +48,9 @@ def inject_styles() -> None:
     .kpi-note { color:#64736e; font-size:.78rem; }
     .good { color:#16805d; } .watch { color:#bd7529; } .risk { color:#c65443; }
     .section-rule { border-top:1px solid var(--line); margin:1.2rem 0; }
+    .report-meta { color:#64736e; font-size:.76rem; padding:.45rem 0 .8rem; border-bottom:1px solid var(--line); }
+    .insight { border-left:4px solid var(--teal); background:#eaf5f0; padding:.75rem .9rem; color:#23483d; font-size:.86rem; }
+    .small-note { color:#64736e; font-size:.74rem; }
     </style>
     """, unsafe_allow_html=True)
 
@@ -114,6 +118,13 @@ def metric_card(label: str, value: str, note: str, tone: str = "good") -> None:
     st.markdown(f'<div class="kpi"><div class="kpi-label">{label}</div><div class="kpi-value {tone}">{value}</div><div class="kpi-note">{note}</div></div>', unsafe_allow_html=True)
 
 
+def report_meta(source: str, date_range: tuple[Any, Any]) -> None:
+    st.markdown(
+        f'<div class="report-meta">Reporting period: {date_range[0]} to {date_range[1]} &nbsp; | &nbsp; Source: {source.title()} data &nbsp; | &nbsp; Refreshed: {pd.Timestamp.now().strftime("%d %b %Y, %H:%M")}</div>',
+        unsafe_allow_html=True,
+    )
+
+
 def prepare_dates(tables: dict[str, pd.DataFrame]) -> tuple[pd.Timestamp, pd.Timestamp]:
     values = []
     for frame in tables.values():
@@ -145,10 +156,11 @@ def chart_layout(fig: go.Figure, height: int = 320) -> go.Figure:
     return fig
 
 
-def overview(t: dict[str, pd.DataFrame]) -> None:
+def overview(t: dict[str, pd.DataFrame], source: str = "demo", date_range: tuple[Any, Any] = ("selected", "period")) -> None:
     admissions, billing, claims, emergency, beds, feedback = (t[name] for name in ["admissions", "billing", "insurance_claims", "emergency_visits", "bed_utilization", "patient_feedback"])
     readmit = admissions["readmission_within_30d"].mean() * 100; occupancy = beds["occupancy_status"].eq("Occupied").mean() * 100; net_revenue = billing["gross_amount"].sum() - billing["insurance_adjustment"].sum(); approval = claims["claim_status"].isin(["Approved", "Paid"]).mean() * 100; los = admissions["length_of_stay"].mean(); satisfaction = feedback["overall_rating"].mean()
     st.markdown('<div class="eyebrow">Northstar Health / Command Center</div><h1>Hospital performance, in one view.</h1><p class="subhead">A live operating picture across clinical quality, revenue cycle, patient flow, and experience.</p>', unsafe_allow_html=True)
+    report_meta(source, date_range)
     cards = st.columns(6); values = [("Bed occupancy", f"{occupancy:.1f}%", "Target 85%", "watch" if occupancy < 80 else "good"), ("30-day readmission", f"{readmit:.1f}%", "Target below 15.6%", "risk" if readmit > 15.6 else "good"), ("Net revenue", f"${net_revenue / 1e6:.2f}M", "Selected period", "good"), ("Claim approval", f"{approval:.1f}%", "Target above 88%", "risk" if approval < 88 else "good"), ("Average LOS", f"{los:.1f} days", "DRG-adjusted view", "good"), ("Patient rating", f"{satisfaction:.1f}/10", "Target above 8.0", "good" if satisfaction >= 8 else "watch")]
     for column, item in zip(cards, values):
         with column: metric_card(*item)
@@ -161,8 +173,9 @@ def overview(t: dict[str, pd.DataFrame]) -> None:
         st.plotly_chart(chart_layout(px.pie(dist, values="visits", names="disposition", hole=.62, title="Emergency disposition", color_discrete_sequence=[PALETTE["teal"], PALETTE["blue"], PALETTE["gold"], PALETTE["coral"], "#9ab5a9"])), use_container_width=True)
 
 
-def clinical(t: dict[str, pd.DataFrame]) -> None:
+def clinical(t: dict[str, pd.DataFrame], source: str = "demo", date_range: tuple[Any, Any] = ("selected", "period")) -> None:
     admissions, feedback = t["admissions"], t["patient_feedback"]; st.markdown('<div class="eyebrow">Clinical quality</div><h1>Care outcomes worth acting on.</h1><p class="subhead">Track avoidable returns, mortality signals, length of stay, and experience by ward.</p>', unsafe_allow_html=True)
+    report_meta(source, date_range)
     cols = st.columns(4); metrics = [("30-day readmission", f"{admissions['readmission_within_30d'].mean() * 100:.1f}%", "Target < 15.6%"), ("In-hospital mortality", f"{admissions['discharge_status'].eq('Expired').mean() * 100:.1f}%", "All discharges"), ("Average LOS", f"{admissions['length_of_stay'].mean():.1f} days", "Selected admissions"), ("Patient rating", f"{feedback['overall_rating'].mean():.1f}/10", "HCAHPS proxy")]
     for col, item in zip(cols, metrics): col.metric(*item)
     by_ward = admissions.groupby("ward").agg(admissions=("admission_id", "count"), readmission_rate=("readmission_within_30d", "mean"), avg_los=("length_of_stay", "mean")).reset_index(); by_ward["readmission_rate"] *= 100
@@ -206,6 +219,24 @@ def experience(t: dict[str, pd.DataFrame]) -> None:
     hospital = feedback.groupby("hospital_id").agg(rating=("overall_rating", "mean"), responses=("overall_rating", "size"), sentiment=("sentiment_score", "mean")).reset_index().sort_values("rating"); fig = px.bar(hospital, x="rating", y="hospital_id", orientation="h", title="Rating by hospital", text="rating", color="sentiment", color_continuous_scale=[PALETTE["coral"], PALETTE["mint"], PALETTE["teal"]]); fig.update_traces(texttemplate="%{text:.1f}", textposition="outside"); st.plotly_chart(chart_layout(fig), use_container_width=True)
 
 
+def population_health(t: dict[str, pd.DataFrame], source: str) -> None:
+    """DRG-derived population health view for the executive report suite."""
+    admissions = t["admissions"].copy()
+    admissions["condition"] = admissions["drg_code"].map({"871": "Sepsis", "291": "Heart failure", "194": "Pneumonia", "470": "Joint replacement", "392": "GI disorders", "683": "Renal failure"}).fillna("Other")
+    admissions["critical"] = admissions["discharge_status"].eq("Expired")
+    st.markdown('<div class="eyebrow">CMO / Population health</div><h1>Know what is moving through the community.</h1><p class="subhead">Disease burden, severity mix, and high-risk cohorts for clinical surveillance.</p>', unsafe_allow_html=True)
+    summary = admissions.groupby("condition").agg(cases=("admission_id", "count"), critical_rate=("critical", "mean"), avg_los=("length_of_stay", "mean")).reset_index().sort_values("cases", ascending=False); summary["critical_rate"] *= 100
+    cards = st.columns(4)
+    for column, item in zip(cards, [("Active cohorts", str(len(summary)), "DRG-derived conditions", "neutral"), ("Admissions", f"{len(admissions):,}", "Selected period", "neutral"), ("Highest burden", summary.iloc[0]["condition"], f"{int(summary.iloc[0]['cases']):,} cases", "watch"), ("Critical outcome rate", f"{admissions['critical'].mean() * 100:.1f}%", "Mortality proxy", "risk")]):
+        with column: metric_card(*item)
+    left, right = st.columns(2)
+    with left:
+        fig = px.bar(summary.sort_values("cases"), x="cases", y="condition", orientation="h", color="critical_rate", color_continuous_scale=[PALETTE["mint"], PALETTE["coral"]], title="Condition burden and criticality", labels={"cases": "Admissions", "condition": "Condition", "critical_rate": "Critical %"}); st.plotly_chart(chart_layout(fig), use_container_width=True)
+    with right:
+        trend = admissions.assign(week=pd.to_datetime(admissions["admit_date"]).dt.to_period("W").astype(str)).groupby(["week", "condition"]).size().reset_index(name="cases"); fig = px.area(trend, x="week", y="cases", color="condition", title="Weekly surveillance trend"); st.plotly_chart(chart_layout(fig), use_container_width=True)
+    st.dataframe(summary.rename(columns={"condition": "Condition", "cases": "Cases", "critical_rate": "Critical %", "avg_los": "Avg LOS (days)"}).round(2), use_container_width=True, hide_index=True)
+
+
 def explorer(t: dict[str, pd.DataFrame], source: str) -> None:
     st.markdown('<div class="eyebrow">Data explorer</div><h1>Inspect the signal behind the score.</h1><p class="subhead">Tables are sampled for responsiveness. Identifiers are shown only to support local development and should be masked in production.</p>', unsafe_allow_html=True); st.info(f"Data source: {source}. Showing up to {MAX_ROWS_PER_TABLE:,} rows per table for this session.")
     table = st.selectbox("Dataset", list(t.keys())); frame = t[table]; search = st.text_input("Search visible values", placeholder="hospital, ward, status...")
@@ -217,16 +248,17 @@ def explorer(t: dict[str, pd.DataFrame], source: str) -> None:
 def main() -> None:
     inject_styles(); tables, source = load_all_tables(); start, end = prepare_dates(tables)
     with st.sidebar:
-        st.markdown("## NORTHSTAR HEALTH"); st.caption("Clinical intelligence / v1.0"); page = st.radio("Workspace", ["Command center", "Clinical quality", "Revenue cycle", "Operations", "Patient experience", "Data explorer"], label_visibility="collapsed"); st.markdown("---"); st.markdown("### Scope")
+        st.markdown("## NORTHSTAR HEALTH"); st.caption("Enterprise clinical intelligence / v2.0"); page = st.radio("Workspace", ["Command center", "Clinical quality", "Revenue cycle", "Operations", "Patient experience", "Population health", "Data explorer"], label_visibility="collapsed"); st.markdown("---"); st.markdown("### Scope")
         date_range = st.date_input("Date range", value=(start.date(), end.date()), min_value=start.date(), max_value=end.date()); hospitals = sorted({str(value) for frame in tables.values() if "hospital_id" in frame for value in frame["hospital_id"].dropna().unique()}); hospital = st.selectbox("Hospital", ["All hospitals"] + hospitals); st.markdown("---"); st.caption("Refresh after new files land in data/raw.")
         if st.button("Refresh data", use_container_width=True): st.cache_data.clear(); st.rerun()
     if not isinstance(date_range, (tuple, list)) or len(date_range) != 2: date_range = (start.date(), end.date())
     filtered = filter_tables(tables, date_range, hospital)
-    if page == "Command center": overview(filtered)
-    elif page == "Clinical quality": clinical(filtered)
+    if page == "Command center": overview(filtered, source, date_range)
+    elif page == "Clinical quality": clinical(filtered, source, date_range)
     elif page == "Revenue cycle": financial(filtered)
     elif page == "Operations": operations(filtered)
     elif page == "Patient experience": experience(filtered)
+    elif page == "Population health": population_health(filtered, source)
     else: explorer(filtered, source)
 
 
