@@ -47,6 +47,7 @@ nltk==3.8.1
 matplotlib==3.8.2
 seaborn==0.13.0
 plotly==5.18.0
+streamlit==1.39.0
 
 # Workflow Orchestration
 apache-airflow==2.8.0
